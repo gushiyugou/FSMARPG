@@ -1,0 +1,15 @@
+{
+  "textButton": "#00b2ff",
+  "imageTextButton": "#333333",
+  "button": "#00c3ff",
+  "cancelButton": "#333333",
+  "buttonDefault": "#ffffff",
+  "buttonPressed": "#ffffff",
+  "userAgreementAcceptDisable": "#FFFFFF",
+  "QRAppTips": "#00c3ff",
+  "textInput": "#333333",
+  "textPlaceholder": "#CCCCCC",
+  "linkText": "#DCBC60",
+  "textTitle": "#666666",
+  "textContent": "#333333"
+}

@@ -1,0 +1,265 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 742a5474f61027647d92dc35c0a47145, type: 3}
+  m_Name: NapBloom
+  m_EditorClassIdentifier:
+  active: 1
+  m_AdvancedMode: 0
+  TypeId: 11
+  glareThreshold:
+    m_OverrideState: 1
+    m_Value: 0.45
+    min: 0
+    max: 5
+  glareThresholdForHDR:
+    m_OverrideState: 1
+    m_Value: 0.45
+    min: 0
+    max: 10
+  glareScaler:
+    m_OverrideState: 1
+    m_Value: 1
+    min: 0
+    max: 5
+  glareScalerForHDR:
+    m_OverrideState: 1
+    m_Value: 1
+    min: 0
+    max: 5
+  blurLevelWeights:
+    m_OverrideState: 0
+    m_Value: {x: 0.3, y: 0.3, z: 0.26, w: 0.15}
+  secondaryGlareThreshold:
+    m_OverrideState: 0
+    m_Value: 0
+    min: 0
+    max: 5
+  secondaryGlareContrast:
+    m_OverrideState: 0
+    m_Value: 1
+    min: 0
+    max: 100
+  secondaryGlareWeight:
+    m_OverrideState: 0
+    m_Value: 0
+    min: 0
+    max: 1
+  secondaryBlurRadius:
+    m_OverrideState: 0
+    m_Value: 4
+    min: 1
+    max: 18
+  glareIntensity:
+    m_OverrideState: 1
+    m_Value: 1
+    min: 0
+    max: 8
+  quality:
+    m_OverrideState: 1
+    m_Value: 2
+  blurLevelBufferHeights:
+    m_OverrideState: 1
+    m_Value: {x: 192, y: 85, z: 50, w: 20}
+  secondaryBlurLevelBufferHeight:
+    m_OverrideState: 1
+    m_Value: 128
+    min: 4
+    max: 512
+  dirtTexture:
+    m_OverrideState: 0
+    m_Value: {fileID: 0}
+  dirtIntensity:
+    m_OverrideState: 0
+    m_Value: 0
+    min: 0
+  HasExtraDownsample:
+    m_OverrideState: 0
+    m_Value: 0
+  enableSpriteFlare:
+    m_OverrideState: 0
+    m_Value: 0
+  flareThreshold:
+    m_OverrideState: 0
+    m_Value: 1
+    min: 0.01
+    max: 5
+  areaThreshold:
+    m_OverrideState: 0
+    m_Value: 128
+    min: 0
+    max: 512
+  saturate:
+    m_OverrideState: 0
+    m_Value: 0
+    min: 0
+    max: 1
+  randomize:
+    m_OverrideState: 0
+    m_Value: 0
+    min: 0
+    max: 1
+  sizeClamp:
+    m_OverrideState: 0
+    m_Value: 1
+    min: 0
+    max: 1
+  intensityClamp:
+    m_OverrideState: 0
+    m_Value: 1
+    min: 0
+    max: 1
+  iterationNum:
+    m_OverrideState: 0
+    m_Value: 3
+    min: 2
+    max: 10
+  flareProfile:
+    m_OverrideState: 0
+    m_Value: {fileID: 0}
+  hqBloomMode:
+    m_OverrideState: 1
+    m_Value: 3
+  hqUESampleQuality:
+    m_OverrideState: 1
+    m_Value: 1
+  hqUEBloomThreshold:
+    m_OverrideState: 1
+    m_Value: 0.45
+    min: 0
+  hqUEBloomThresholdChar:
+    m_OverrideState: 1
+    m_Value: 0.5
+    min: 0
+  hqUEBloomMaxThreshold:
+    m_OverrideState: 1
+    m_Value: 3
+    min: 1
+  hqUEBloomMaxThresholdChar:
+    m_OverrideState: 1
+    m_Value: 100
+    min: 1
+  hqUEBloomIntensity:
+    m_OverrideState: 1
+    m_Value: 2.5
+    min: 0
+    max: 4
+  hqUEBloomIntensityChar:
+    m_OverrideState: 1
+    m_Value: 3
+    min: 0
+    max: 4
+  hqBloomSize6:
+    m_OverrideState: 1
+    m_Value: 64
+    min: 0
+    max: 64
+  hqBloomSize5:
+    m_OverrideState: 1
+    m_Value: 56
+    min: 0
+    max: 64
+  hqBloomSize4:
+    m_OverrideState: 1
+    m_Value: 48.2
+    min: 0
+    max: 64
+  hqBloomSize3:
+    m_OverrideState: 1
+    m_Value: 38.8
+    min: 0
+    max: 64
+  hqBloomSize2:
+    m_OverrideState: 1
+    m_Value: 31.4
+    min: 0
+    max: 64
+  hqBloomSize1:
+    m_OverrideState: 1
+    m_Value: 20.7
+    min: 0
+    max: 64
+  hqBloomTint6:
+    m_OverrideState: 1
+    m_Value: 1
+    min: 0
+    max: 1
+  hqBloomTint5:
+    m_OverrideState: 1
+    m_Value: 0.9
+    min: 0
+    max: 1
+  hqBloomTint4:
+    m_OverrideState: 1
+    m_Value: 0.8
+    min: 0
+    max: 1
+  hqBloomTint3:
+    m_OverrideState: 1
+    m_Value: 0.695
+    min: 0
+    max: 1
+  hqBloomTint2:
+    m_OverrideState: 1
+    m_Value: 0.596
+    min: 0
+    max: 1
+  hqBloomTint1:
+    m_OverrideState: 1
+    m_Value: 0.477
+    min: 0
+    max: 1
+  hQBloomIntensity:
+    m_OverrideState: 0
+    m_Value: 1
+    min: 0
+    max: 1
+  hQBloomThreshold:
+    m_OverrideState: 0
+    m_Value: 1
+    min: 0
+  hQBloomScatter:
+    m_OverrideState: 0
+    m_Value: 1
+    min: 0
+    max: 1
+  hQBloomTint:
+    m_OverrideState: 0
+    m_Value: {r: 1, g: 1, b: 1, a: 1}
+    hdr: 0
+    showAlpha: 0
+    showEyeDropper: 1
+  hqBloomResolution:
+    m_OverrideState: 0
+    m_Value: 2
+  xBlurIntensity:
+    m_OverrideState: 0
+    m_Value: 1
+    min: 0
+    max: 1
+  yBlurIntensity:
+    m_OverrideState: 0
+    m_Value: 1
+    min: 0
+    max: 1
+  useRealDownSample:
+    m_OverrideState: 0
+    m_Value: 0
+  blurRadius:
+    m_OverrideState: 0
+    m_Value: 1
+    min: 0
+  doBloomAfterTAA:
+    m_OverrideState: 0
+    m_Value: 0
+  useSourceLumaMask:
+    m_OverrideState: 0
+    m_Value: 0

@@ -1,0 +1,10 @@
+
+{
+    "$Type" : "Foundation.LoginSetting",
+    "login_type" : 1,
+    "resource_type" : 2,
+    "dispatch_urls" : [
+        "https://globaldp-prod-cn01.juequling.com/query_dispatch",
+        "https://globaldp-prod-cn02.juequling.com/query_dispatch"
+    ]
+}

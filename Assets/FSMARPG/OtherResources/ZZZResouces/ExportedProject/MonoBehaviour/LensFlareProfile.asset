@@ -1,0 +1,156 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfb5ae14f1b835aeeb89fe903bf78d76, type: 3}
+  m_Name: LensFlareProfile
+  m_EditorClassIdentifier:
+  lensFlareDataSrps:
+  - {fileID: 11400000, guid: 8a04da3cef80ae047b96579bdeb31eef, type: 2}
+  - {fileID: 11400000, guid: cc695d4736391834094739a43bc4b282, type: 2}
+  - {fileID: 11400000, guid: 8e0b7f67789b96d41aec05d87fb38439, type: 2}
+  - {fileID: 11400000, guid: 36a0d3f89e274a24289ec52ac28b8397, type: 2}
+  - {fileID: 11400000, guid: 23fa8f387fa810a41b7b13973a8083ec, type: 2}
+  - {fileID: 11400000, guid: b2a8bb2b1130e494eadc65ba85c1dd17, type: 2}
+  - {fileID: 11400000, guid: a199f762bf4f2884195c74172f4978f4, type: 2}
+  - {fileID: 11400000, guid: 53fffb6e9a6c0c24a93f8b2a69a3deef, type: 2}
+  - {fileID: 11400000, guid: 24064c79224d270468300b236d0f34a0, type: 2}
+  FlarePresets:
+  - name: Light01
+    scaler: {x: 1, y: 1}
+    rotate: 0
+    intensity: 1
+    tex: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    texScaleInAtlas: 1
+    atlas_offset_scale: {x: 0.25048828, y: 0.5004883, z: 0.125, w: 0.125}
+  - name: Radiation06
+    scaler: {x: 1, y: 1}
+    rotate: 0
+    intensity: 1
+    tex: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    texScaleInAtlas: 1
+    atlas_offset_scale: {x: 0.00048828125, y: 0.00048828125, z: 0.24902344, w: 0.24902344}
+  - name: Flare03
+    scaler: {x: 1, y: 1}
+    rotate: 0
+    intensity: 1
+    tex: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    texScaleInAtlas: 1
+    atlas_offset_scale: {x: 0.25048828, y: 0.00048828125, z: 0.24902344, w: 0.24902344}
+  - name: Flare1
+    scaler: {x: 1, y: 1}
+    rotate: 0
+    intensity: 1
+    tex: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    texScaleInAtlas: 1
+    atlas_offset_scale: {x: 0.37646484, y: 0.5004883, z: 0.0625, w: 0.0625}
+  - name: Star
+    scaler: {x: 1, y: 1}
+    rotate: 0
+    intensity: 1
+    tex: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    texScaleInAtlas: 1
+    atlas_offset_scale: {x: 0.37646484, y: 0.56396484, z: 0.0625, w: 0.0625}
+  - name: Round02
+    scaler: {x: 1, y: 1}
+    rotate: 0
+    intensity: 1
+    tex: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    texScaleInAtlas: 1
+    atlas_offset_scale: {x: 0.25048828, y: 0.62646484, z: 0.125, w: 0.125}
+  - name: Hexagon02
+    scaler: {x: 1, y: 1}
+    rotate: 0
+    intensity: 1
+    tex: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    texScaleInAtlas: 1
+    atlas_offset_scale: {x: 0.5004883, y: 0.00048828125, z: 0.24902344, w: 0.24902344}
+  - name: Flare2
+    scaler: {x: 1, y: 1}
+    rotate: 0
+    intensity: 1
+    tex: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    texScaleInAtlas: 1
+    atlas_offset_scale: {x: 0.37646484, y: 0.6274414, z: 0.0625, w: 0.0625}
+  - name: Hexagon01
+    scaler: {x: 1, y: 1}
+    rotate: 0
+    intensity: 1
+    tex: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    texScaleInAtlas: 1
+    atlas_offset_scale: {x: 0.7504883, y: 0.00048828125, z: 0.24902344, w: 0.24902344}
+  - name: Round03
+    scaler: {x: 1, y: 1}
+    rotate: 0
+    intensity: 1
+    tex: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    texScaleInAtlas: 1
+    atlas_offset_scale: {x: 0.25048828, y: 0.7524414, z: 0.125, w: 0.125}
+  - name: SunLight04
+    scaler: {x: 1, y: 1}
+    rotate: 0
+    intensity: 1
+    tex: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    texScaleInAtlas: 1
+    atlas_offset_scale: {x: 0.7504883, y: 0.25048828, z: 0.24902344, w: 0.24902344}
+  - name: SunLight05
+    scaler: {x: 1, y: 1}
+    rotate: 0
+    intensity: 1
+    tex: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    texScaleInAtlas: 1
+    atlas_offset_scale: {x: 0.7504883, y: 0.5004883, z: 0.24902344, w: 0.24902344}
+  - name: Light07
+    scaler: {x: 1, y: 1}
+    rotate: 0
+    intensity: 1
+    tex: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    texScaleInAtlas: 1
+    atlas_offset_scale: {x: 0.7504883, y: 0.7504883, z: 0.24902344, w: 0.24902344}
+  - name: Light09
+    scaler: {x: 1, y: 1}
+    rotate: 0
+    intensity: 1
+    tex: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    texScaleInAtlas: 1
+    atlas_offset_scale: {x: 0.5004883, y: 0.25048828, z: 0.24902344, w: 0.24902344}
+  - name: Light08
+    scaler: {x: 1, y: 1}
+    rotate: 0
+    intensity: 1
+    tex: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    texScaleInAtlas: 1
+    atlas_offset_scale: {x: 0.25048828, y: 0.87841797, z: 0.125, w: 0.0625}
+  - name: Circle07
+    scaler: {x: 1, y: 1}
+    rotate: 0
+    intensity: 1
+    tex: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    texScaleInAtlas: 1
+    atlas_offset_scale: {x: 0.5004883, y: 0.5004883, z: 0.24902344, w: 0.24902344}
+  - name: Circle06
+    scaler: {x: 1, y: 1}
+    rotate: 0
+    intensity: 1
+    tex: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    texScaleInAtlas: 1
+    atlas_offset_scale: {x: 0.5004883, y: 0.7504883, z: 0.24902344, w: 0.24902344}
+  - name: Light10
+    scaler: {x: 1, y: 1}
+    rotate: 0
+    intensity: 1
+    tex: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    texScaleInAtlas: 1
+    atlas_offset_scale: {x: 0.25048828, y: 0.25048828, z: 0.24902344, w: 0.24902344}
+  FlareAtlas: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+  AtlasSize: {x: 2048, y: 2048}
+  SingleFlareMaxSize: 512
+  defaultFlareTex: {fileID: 0}
+  dirty: 0

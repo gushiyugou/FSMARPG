@@ -1,0 +1,517 @@
+{
+    "nap_cn": {
+        "account_plat": {
+            "abtest": [
+                {
+                    "app_id": "53",
+                    "app_key": "f2eeb31d-066c-4ce6-9b37-a108ffc3f851",
+                    "enable_envs": [
+                        "6"
+                    ],
+                    "scene_ids": [
+                        133
+                    ]
+                },
+                {
+                    "app_id": "52",
+                    "app_key": "06955eea-dfc0-48df-a117-7e06e7748512",
+                    "enable_envs": [
+                        "0",
+                        "4"
+                    ],
+                    "scene_ids": [
+                        304
+                    ]
+                },
+                {
+                    "app_id": "51",
+                    "app_key": "23dd0950-b1ef-41d1-972b-dba75f422eb1",
+                    "enable_envs": [
+                        "9"
+                    ],
+                    "scene_ids": [
+                        303
+                    ]
+                },
+                {
+                    "app_id": "54",
+                    "app_key": "6ae69ae6-63c5-4bca-aee0-e2bddaf2b0b8",
+                    "enable_envs": [
+                        "1"
+                    ],
+                    "scene_ids": [
+                        172
+                    ]
+                }
+            ],
+            "available": true,
+            "default_new_user_center": true
+        },
+        "apm_sdk": {
+            "available": true,
+            "enable_apm_sdk": true
+        },
+        "bilibili_sdk": {
+            "app_id": "10525",
+            "app_key": "e55129184bfb4904aa3d4fe9955b060d",
+            "available": true,
+            "merchant_id": "777",
+            "server_id": "9693"
+        },
+        "notice": {
+            "available": true,
+            "enable_red_point_text": true
+        },
+        "pay_plat": {
+            "abtest": [
+                {
+                    "enable_envs": [
+                        "0",
+                        "1",
+                        "4",
+                        "8",
+                        "9",
+                        "10",
+                        "19",
+                        "22"
+                    ],
+                    "scene_id_pay_plat_type": 341
+                },
+                {
+                    "enable_envs": [
+                        "6"
+                    ],
+                    "scene_id_pay_plat_type": 184
+                },
+                {
+                    "enable_envs": [
+                        "9"
+                    ],
+                    "scene_id_pay_plat_type": 341
+                }
+            ],
+            "available": true
+        },
+        "taptap_sdk": {
+            "available": true,
+            "taptap_client_id": "nuwxcpqrgwdnjnbjm1"
+        },
+        "watermark": {
+            "available": true,
+            "config": [
+                {
+                    "app_id": "dii8uvsonb40",
+                    "cloud_app_id": "do1q8ozhkdts",
+                    "enable_envs": [
+                        "9"
+                    ]
+                },
+                {
+                    "app_id": "dii8uvsonb40",
+                    "cloud_app_id": "do1q8ozhkdts",
+                    "enable_envs": [
+                        "1"
+                    ]
+                }
+            ]
+        },
+        "webview": {
+            "abtest": [
+                {
+                    "app_id": "65",
+                    "app_key": "ecb16fa1-7436-46df-a015-e767e8935cfc",
+                    "enable_envs": [
+                        "0"
+                    ],
+                    "webview_render_method_scene": {
+                        "render_method_experiment_id": "5667"
+                    }
+                },
+                {
+                    "app_id": "65",
+                    "app_key": "ecb16fa1-7436-46df-a015-e767e8935cfc",
+                    "enable_envs": [
+                        9
+                    ],
+                    "webview_render_method_scene": {
+                        "render_method_experiment_id": "5615"
+                    }
+                },
+                {
+                    "app_id": "60",
+                    "app_key": "d10ff485-06ec-4b9d-8977-14716c0a1dda",
+                    "enable_envs": [
+                        "6",
+                        "1"
+                    ],
+                    "webview_render_method_scene": {
+                        "render_method_experiment_id": "862"
+                    }
+                }
+            ],
+            "available": true
+        }
+    },
+    "nap_cn（废弃）": {
+        "apm_sdk": {
+            "available": true,
+            "enable_apm_sdk": true
+        },
+        "watermark": {
+            "available": true,
+            "config": [
+                {
+                    "app_id": "centvp0jjh1c",
+                    "enable_envs": [
+                        "1",
+                        "9",
+                        "0"
+                    ]
+                }
+            ]
+        }
+    },
+    "nap_global": {
+        "apm_sdk": {
+            "available": true,
+            "enable_apm_sdk": true
+        },
+        "apple": {
+            "apple_client_id": "com.hoyoverse.platoversealogin",
+            "available": true
+        },
+        "console": {
+            "available": true,
+            "console_passport_config": true
+        },
+        "eos_config": {
+            "available": true,
+            "eos_parameters": [
+                {
+                    "client_id": "xyza7891wMPGBwPyezbezNWRcTuxDJz3",
+                    "client_secret": "Zi12Sb1O5YcjnGfPk12CU3L9k8EHOYJwC/3RCLzuHFA",
+                    "deployment_id": "879d1c1076804a03bea94a7868870a30",
+                    "enable_envs": [
+                        2,
+                        5,
+                        12,
+                        20
+                    ],
+                    "product_id": "dcd83ace86fb4501bde1316ca03e29ad",
+                    "sandbox_id": "6827387b744d4a46bd70ea8a145e595b"
+                },
+                {
+                    "client_id": "xyza7891wMPGBwPyezbezNWRcTuxDJz3",
+                    "client_secret": "Zi12Sb1O5YcjnGfPk12CU3L9k8EHOYJwC/3RCLzuHFA",
+                    "deployment_id": "6ddf10d625b74736966f0c787b745131",
+                    "enable_envs": [
+                        7
+                    ],
+                    "product_id": "dcd83ace86fb4501bde1316ca03e29ad",
+                    "sandbox_id": "p-tl9n2j6jh3lvfctxgaqp97p3gsztrv"
+                },
+                {
+                    "client_id": "xyza7891wMPGBwPyezbezNWRcTuxDJz3",
+                    "client_secret": "Zi12Sb1O5YcjnGfPk12CU3L9k8EHOYJwC/3RCLzuHFA",
+                    "deployment_id": "7d630f61de7f42d5805f11e96d003d61",
+                    "enable_envs": [
+                        3,
+                        11
+                    ],
+                    "product_id": "dcd83ace86fb4501bde1316ca03e29ad",
+                    "sandbox_id": "p-y34gdw3cstee34hlc4skn5yw7u2qvq"
+                }
+            ]
+        },
+        "facebook": {
+            "available": true,
+            "facebook_client_id": "2099441543493930"
+        },
+        "google": {
+            "available": true,
+            "google_client_id": "288090282490-9fbgrqnjip9ilncr14ooo8rirhu9ik9u.apps.googleusercontent.com"
+        },
+        "hoyopass": {
+            "available": true,
+            "hoyopass_default_config": true,
+            "theme": "light-nap",
+            "use_hoyopass_default_config": true
+        },
+        "loginOS": {
+            "abtestOS": [
+                {
+                    "account_list_scene": {
+                        "account_list_experiment_id": "6356",
+                        "account_list_scene_id": "106"
+                    },
+                    "app_id": "33",
+                    "app_key": "78ca2ff1-8094-4730-9edc-86fb9ad31992",
+                    "console_new_user_center_scene": {
+                        "console_new_user_center_experiment_id": "6729",
+                        "console_new_user_center_scene_id": "272"
+                    },
+                    "enable_envs": [
+                        2,
+                        5,
+                        20,
+                        21
+                    ],
+                    "forget_password_scene": {
+                        "forget_password_experiment_id": "6357",
+                        "forget_password_scene_id": "107"
+                    },
+                    "hoyopass_scene": {
+                        "hoyopass_experiment_id": "6595",
+                        "hoyopass_scene_id": "203"
+                    },
+                    "register_scene": {
+                        "register_experiment_id": "6231",
+                        "register_scene_id": "45"
+                    },
+                    "user_center_scene": {
+                        "user_center_experiment_id": "6557",
+                        "user_center_scene_id": "185"
+                    }
+                },
+                {
+                    "account_list_scene": {
+                        "account_list_experiment_id": "6356",
+                        "account_list_scene_id": "106"
+                    },
+                    "app_id": "33",
+                    "app_key": "78ca2ff1-8094-4730-9edc-86fb9ad31992",
+                    "console_new_user_center_scene": {
+                        "console_new_user_center_experiment_id": "6729",
+                        "console_new_user_center_scene_id": "272"
+                    },
+                    "enable_envs": [
+                        3
+                    ],
+                    "forget_password_scene": {
+                        "forget_password_experiment_id": "6357",
+                        "forget_password_scene_id": "107"
+                    },
+                    "hoyopass_scene": {
+                        "hoyopass_experiment_id": "6593",
+                        "hoyopass_scene_id": "201"
+                    },
+                    "register_scene": {
+                        "register_experiment_id": "6231",
+                        "register_scene_id": "45"
+                    },
+                    "user_center_scene": {
+                        "user_center_experiment_id": "6557",
+                        "user_center_scene_id": "185"
+                    }
+                },
+                {
+                    "account_list_scene": {
+                        "account_list_experiment_id": "6356",
+                        "account_list_scene_id": "106"
+                    },
+                    "app_id": "33",
+                    "app_key": "78ca2ff1-8094-4730-9edc-86fb9ad31992",
+                    "console_new_user_center_scene": {
+                        "console_new_user_center_experiment_id": "6729",
+                        "console_new_user_center_scene_id": "272"
+                    },
+                    "enable_envs": [
+                        11
+                    ],
+                    "forget_password_scene": {
+                        "forget_password_experiment_id": "6357",
+                        "forget_password_scene_id": "107"
+                    },
+                    "hoyopass_scene": {
+                        "hoyopass_experiment_id": "6594",
+                        "hoyopass_scene_id": "202"
+                    },
+                    "register_scene": {
+                        "register_experiment_id": "6231",
+                        "register_scene_id": "45"
+                    },
+                    "user_center_scene": {
+                        "user_center_experiment_id": "6557",
+                        "user_center_scene_id": "185"
+                    }
+                },
+                {
+                    "account_list_scene": {
+                        "account_list_experiment_id": "265",
+                        "account_list_scene_id": "45"
+                    },
+                    "app_id": "28",
+                    "app_key": "df7f6400-ae6e-4850-8ff1-63e1f3f960d6",
+                    "console_login_method_scene": {
+                        "console_login_method_experiment_id": "617",
+                        "console_login_method_scene_id": "175"
+                    },
+                    "console_new_user_center_scene": {
+                        "console_new_user_center_experiment_id": "618",
+                        "console_new_user_center_scene_id": "174"
+                    },
+                    "enable_envs": [
+                        7,
+                        12
+                    ],
+                    "forget_password_scene": {
+                        "forget_password_experiment_id": "294",
+                        "forget_password_scene_id": "55"
+                    },
+                    "hoyopass_scene": {
+                        "hoyopass_experiment_id": "525",
+                        "hoyopass_scene_id": "123"
+                    },
+                    "register_scene": {
+                        "register_experiment_id": "240",
+                        "register_scene_id": "39"
+                    },
+                    "user_center_scene": {
+                        "user_center_experiment_id": "563",
+                        "user_center_scene_id": "137"
+                    }
+                }
+            ],
+            "available": true
+        },
+        "notice": {
+            "available": true,
+            "enable_red_point_text": true
+        },
+        "twitter": {
+            "available": true,
+            "twitter_client_id": "R1liQ2o1TE8xWW43MUJaRFZzenE6MTpjaQ"
+        },
+        "watermark": {
+            "available": true,
+            "config": [
+                {
+                    "app_id": "dii9sc6j6fpc",
+                    "cloud_app_id": "esajfqp7efb4",
+                    "enable_envs": [
+                        11
+                    ]
+                }
+            ]
+        },
+        "webview": {
+            "abtest": [
+                {
+                    "app_id": "59",
+                    "app_key": "0f98da61-ef73-4077-ad3d-2049c33001b9",
+                    "enable_envs": [
+                        2,
+                        3
+                    ],
+                    "webview_render_method_scene": {
+                        "render_method_experiment_id": "6486",
+                        "render_method_scene_id": "145"
+                    }
+                },
+                {
+                    "app_id": "59",
+                    "app_key": "0f98da61-ef73-4077-ad3d-2049c33001b9",
+                    "enable_envs": [
+                        11
+                    ],
+                    "webview_render_method_scene": {
+                        "render_method_experiment_id": "6487",
+                        "render_method_scene_id": "146"
+                    }
+                },
+                {
+                    "app_id": "53",
+                    "app_key": "bc77a390-7e68-4274-b9bd-c2c325e81d11",
+                    "enable_envs": [
+                        7
+                    ],
+                    "webview_render_method_scene": {
+                        "render_method_experiment_id": "384",
+                        "render_method_scene_id": "75"
+                    }
+                }
+            ],
+            "available": true
+        }
+    },
+    "nap_global(not use)": {
+        "apm_sdk": {
+            "available": true,
+            "enable_apm_sdk": true
+        },
+        "apple": {
+            "apple_client_id": "com.hoyoverse.platoversealogin",
+            "available": true
+        },
+        "google": {
+            "available": true,
+            "google_client_id": "288090282490-t5s3kvbkrl6uokqncd31h04t5e74dnsl.apps.googleusercontent.com"
+        },
+        "loginOS": {
+            "abtestOS": [
+                {
+                    "account_list_scene": {
+                        "account_list_experiment_id": "6356",
+                        "account_list_scene_id": "106"
+                    },
+                    "app_id": "33",
+                    "app_key": "78ca2ff1-8094-4730-9edc-86fb9ad31992",
+                    "enable_envs": [
+                        2,
+                        3,
+                        5,
+                        11,
+                        12,
+                        20,
+                        21
+                    ],
+                    "forget_password_scene": {
+                        "forget_password_experiment_id": "6357",
+                        "forget_password_scene_id": "107"
+                    },
+                    "register_scene": {
+                        "register_experiment_id": "6231",
+                        "register_scene_id": "45"
+                    }
+                },
+                {
+                    "account_list_scene": {
+                        "account_list_experiment_id": "265",
+                        "account_list_scene_id": "45"
+                    },
+                    "app_id": "28",
+                    "app_key": "df7f6400-ae6e-4850-8ff1-63e1f3f960d6",
+                    "enable_envs": [
+                        7
+                    ],
+                    "forget_password_scene": {
+                        "forget_password_experiment_id": "294",
+                        "forget_password_scene_id": "55"
+                    },
+                    "register_scene": {
+                        "register_experiment_id": "240",
+                        "register_scene_id": "39"
+                    }
+                }
+            ],
+            "available": true
+        },
+        "notice": {
+            "available": true,
+            "enable_red_point_text": true
+        },
+        "watermark": {
+            "available": true,
+            "config": [
+                {
+                    "app_id": "cer35ezgbym8",
+                    "enable_envs": [
+                        3,
+                        11,
+                        2
+                    ]
+                }
+            ]
+        }
+    }
+}

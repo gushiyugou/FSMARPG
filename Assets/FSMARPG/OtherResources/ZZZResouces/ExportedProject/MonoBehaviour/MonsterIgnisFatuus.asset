@@ -1,0 +1,157 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e64366f6d34ce786132d4c1880d680d, type: 3}
+  m_Name: MonsterIgnisFatuus
+  m_EditorClassIdentifier:
+  active: 0
+  m_AdvancedMode: 0
+  TypeId: 46
+  monsterIgnisFatuusActive:
+    m_OverrideState: 0
+    m_Value: 0
+  monsterIgnisFatuusDownSample:
+    m_OverrideState: 0
+    m_Value: 1
+    min: 0
+    max: 2
+  monsterIgnisFatuusSelfMask:
+    m_OverrideState: 0
+    m_Value: 0
+  monsterIgnisFatuusDepthMaskOffset:
+    m_OverrideState: 0
+    m_Value: 1
+    min: 0
+    max: 10
+  monsterIgnisFatuusColorBlendMode:
+    m_OverrideState: 0
+    m_Value: 0
+  useMonsterIgnisFatuusColorTextureAlpha:
+    m_OverrideState: 0
+    m_Value: 0
+  monsterIgnisFatuusColor:
+    m_OverrideState: 0
+    m_Value: {r: 1, g: 1, b: 1, a: 1}
+    hdr: 1
+    showAlpha: 1
+    showEyeDropper: 1
+  monsterIgnisFatuusColorTexture:
+    m_OverrideState: 0
+    m_Value: {fileID: 0}
+  monsterIgnisFatuusColorTextureUVScale:
+    m_OverrideState: 0
+    m_Value: {x: 1, y: 1}
+  monsterIgnisFatuusColorTextureUVSpeed:
+    m_OverrideState: 0
+    m_Value: {x: 0, y: 0}
+  monsterIgnisFatuusNoiseTexture:
+    m_OverrideState: 0
+    m_Value: {fileID: 0}
+  monsterIgnisFatuusNoiseTextureUVScale:
+    m_OverrideState: 0
+    m_Value: {x: 1, y: 1}
+  monsterIgnisFatuusNoiseTextureUVSpeed:
+    m_OverrideState: 0
+    m_Value: {x: 0, y: 0}
+  monsterIgnisFatuusDistortionIntensity:
+    m_OverrideState: 0
+    m_Value: 0.45
+    min: 0
+    max: 1
+  monsterIgnisFatuusDistortionOffset:
+    m_OverrideState: 0
+    m_Value: 0
+    min: -0.2
+    max: 0.2
+  monsterIgnisFatuusBlurPow:
+    m_OverrideState: 0
+    m_Value: 1
+    min: 1
+    max: 5
+  monsterIgnisFatuusColorDistortionIntensity:
+    m_OverrideState: 0
+    m_Value: 0
+    min: 0
+    max: 10
+  monsterIgnisFatuusColor2:
+    m_OverrideState: 0
+    m_Value: {r: 1, g: 1, b: 1, a: 1}
+    hdr: 1
+    showAlpha: 1
+    showEyeDropper: 1
+  monsterIgnisFatuusColorTexture2:
+    m_OverrideState: 0
+    m_Value: {fileID: 0}
+  monsterIgnisFatuusColorTextureUVScale2:
+    m_OverrideState: 0
+    m_Value: {x: 1, y: 1}
+  monsterIgnisFatuusColorTextureUVSpeed2:
+    m_OverrideState: 0
+    m_Value: {x: 0, y: 0}
+  monsterIgnisFatuusNoiseTexture2:
+    m_OverrideState: 0
+    m_Value: {fileID: 0}
+  monsterIgnisFatuusNoiseTextureUVScale2:
+    m_OverrideState: 0
+    m_Value: {x: 1, y: 1}
+  monsterIgnisFatuusNoiseTextureUVSpeed2:
+    m_OverrideState: 0
+    m_Value: {x: 0, y: 0}
+  monsterIgnisFatuusDistortionIntensity2:
+    m_OverrideState: 0
+    m_Value: 0.45
+    min: 0
+    max: 1
+  monsterIgnisFatuusDistortionOffset2:
+    m_OverrideState: 0
+    m_Value: 0
+    min: -0.2
+    max: 0.2
+  monsterIgnisFatuusBlurPow2:
+    m_OverrideState: 0
+    m_Value: 1
+    min: 1
+    max: 5
+  monsterIgnisFatuusColorDistortionIntensity2:
+    m_OverrideState: 0
+    m_Value: 0
+    min: 0
+    max: 10
+  monsterIgnisFatuusSoftEdgePow:
+    m_OverrideState: 0
+    m_Value: 0
+    min: 0
+    max: 1
+  monsterIgnisFatuusSoftEdgeRange:
+    m_OverrideState: 0
+    m_Value: 0.4
+    min: 0
+    max: 1
+  monsterIgnisFatuusDisappearStart:
+    m_OverrideState: 0
+    m_Value: 4
+    min: 0
+    max: 20
+  monsterIgnisFatuusDisappearEnd:
+    m_OverrideState: 0
+    m_Value: 15
+    min: 0
+    max: 50
+  monsterIgnisFatuusFadeIn:
+    m_OverrideState: 0
+    m_Value: 0
+    min: 0
+    max: 5
+  monsterIgnisFatuusFadeOut:
+    m_OverrideState: 0
+    m_Value: 0
+    min: 0
+    max: 5

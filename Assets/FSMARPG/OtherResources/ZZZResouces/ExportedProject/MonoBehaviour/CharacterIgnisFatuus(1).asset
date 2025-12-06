@@ -1,0 +1,157 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e9a226401b85b1998217ac23a6dbe05, type: 3}
+  m_Name: CharacterIgnisFatuus
+  m_EditorClassIdentifier:
+  active: 1
+  m_AdvancedMode: 0
+  TypeId: 45
+  characterIgnisFatuusActive:
+    m_OverrideState: 1
+    m_Value: 0
+  characterIgnisFatuusDownSample:
+    m_OverrideState: 1
+    m_Value: 1
+    min: 0
+    max: 2
+  characterIgnisFatuusSelfMask:
+    m_OverrideState: 1
+    m_Value: 0
+  characterIgnisFatuusDepthMaskOffset:
+    m_OverrideState: 1
+    m_Value: 1
+    min: 0
+    max: 10
+  characterIgnisFatuusColorBlendMode:
+    m_OverrideState: 1
+    m_Value: 0
+  useIgnisFatuusColorTextureAlpha:
+    m_OverrideState: 1
+    m_Value: 0
+  characterIgnisFatuusColor:
+    m_OverrideState: 1
+    m_Value: {r: 0, g: 0, b: 0, a: 0}
+    hdr: 1
+    showAlpha: 1
+    showEyeDropper: 1
+  characterIgnisFatuusColorTexture:
+    m_OverrideState: 1
+    m_Value: {fileID: 0}
+  characterIgnisFatuusColorTextureUVScale:
+    m_OverrideState: 1
+    m_Value: {x: 1, y: 1}
+  characterIgnisFatuusColorTextureUVSpeed:
+    m_OverrideState: 1
+    m_Value: {x: 0, y: 0}
+  characterIgnisFatuusNoiseTexture:
+    m_OverrideState: 1
+    m_Value: {fileID: 0}
+  characterIgnisFatuusNoiseTextureUVScale:
+    m_OverrideState: 1
+    m_Value: {x: 1, y: 1}
+  characterIgnisFatuusNoiseTextureUVSpeed:
+    m_OverrideState: 1
+    m_Value: {x: 0, y: 0}
+  characterIgnisFatuusDistortionIntensity:
+    m_OverrideState: 1
+    m_Value: 0.45
+    min: 0
+    max: 1
+  characterIgnisFatuusDistortionOffset:
+    m_OverrideState: 1
+    m_Value: 0
+    min: -0.2
+    max: 0.2
+  characterIgnisFatuusBlurPow:
+    m_OverrideState: 1
+    m_Value: 1
+    min: 1
+    max: 5
+  characterIgnisFatuusColorDistortionIntensity:
+    m_OverrideState: 1
+    m_Value: 0
+    min: 0
+    max: 10
+  characterIgnisFatuusColor2:
+    m_OverrideState: 1
+    m_Value: {r: 1, g: 1, b: 1, a: 1}
+    hdr: 1
+    showAlpha: 1
+    showEyeDropper: 1
+  characterIgnisFatuusColorTexture2:
+    m_OverrideState: 1
+    m_Value: {fileID: 0}
+  characterIgnisFatuusColorTextureUVScale2:
+    m_OverrideState: 1
+    m_Value: {x: 1, y: 1}
+  characterIgnisFatuusColorTextureUVSpeed2:
+    m_OverrideState: 1
+    m_Value: {x: 0, y: 0}
+  characterIgnisFatuusNoiseTexture2:
+    m_OverrideState: 1
+    m_Value: {fileID: 0}
+  characterIgnisFatuusNoiseTextureUVScale2:
+    m_OverrideState: 1
+    m_Value: {x: 1, y: 1}
+  characterIgnisFatuusNoiseTextureUVSpeed2:
+    m_OverrideState: 1
+    m_Value: {x: 0, y: 0}
+  characterIgnisFatuusDistortionIntensity2:
+    m_OverrideState: 1
+    m_Value: 0.45
+    min: 0
+    max: 1
+  characterIgnisFatuusDistortionOffset2:
+    m_OverrideState: 1
+    m_Value: 0
+    min: -0.2
+    max: 0.2
+  characterIgnisFatuusBlurPow2:
+    m_OverrideState: 1
+    m_Value: 1
+    min: 1
+    max: 5
+  characterIgnisFatuusColorDistortionIntensity2:
+    m_OverrideState: 1
+    m_Value: 0
+    min: 0
+    max: 10
+  characterIgnisFatuusSoftEdgePow:
+    m_OverrideState: 1
+    m_Value: 0
+    min: 0
+    max: 1
+  characterIgnisFatuusSoftEdgeRange:
+    m_OverrideState: 1
+    m_Value: 0.4
+    min: 0
+    max: 1
+  characterIgnisFatuusDisappearStart:
+    m_OverrideState: 1
+    m_Value: 4
+    min: 0
+    max: 20
+  characterIgnisFatuusDisappearEnd:
+    m_OverrideState: 1
+    m_Value: 15
+    min: 0
+    max: 50
+  characterIgnisFatuusFadeIn:
+    m_OverrideState: 1
+    m_Value: 0
+    min: 0
+    max: 5
+  characterIgnisFatuusFadeOut:
+    m_OverrideState: 1
+    m_Value: 0
+    min: 0
+    max: 5

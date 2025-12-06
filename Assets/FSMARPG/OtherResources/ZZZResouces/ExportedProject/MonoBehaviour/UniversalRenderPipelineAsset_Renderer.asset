@@ -1,0 +1,252 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94bf13b67d32781ced0763ff927b0597, type: 3}
+  m_Name: UniversalRenderPipelineAsset_Renderer
+  m_EditorClassIdentifier:
+  m_RendererFeatures: []
+  m_RendererFeatureMap:
+  m_RenderPipelineVersionConfig: {fileID: 11400000, guid: dd820d7b17b6fc446a2240bd19b3d40f, type: 2}
+  preIntegratedFGD_GGXDisneyDiffuse: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+  preIntegratedFGD_CharlieFabricLambert: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+  characterOverlayTex: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+  FSRLuminanceBiasLut: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+  GTAOCS: {fileID: 7200000, guid: 57acacbc90bb970448ebe618a443485a, type: 2}
+  GTAODenoiseCS: {fileID: 7200000, guid: 258f6ff849ee66e4c82454079010c7da, type: 2}
+  CameraMotionVectorPS: {fileID: 4800000, guid: b42978fc8f90a324e84bf958ac147872, type: 3}
+  DownSampleDepthPS: {fileID: 4800000, guid: a6a91d6ca7104cd4292559436e753619, type: 3}
+  VolumetricFogBlitPS: {fileID: 4800000, guid: 1f4487b2a93235a46b81d96ea6497ace, type: 3}
+  VolumetricFogPS: {fileID: 4800000, guid: 0dc44d61d62d17a4dbd69be55c33f47a, type: 3}
+  PostLightPS: {fileID: 4800000, guid: 39893a9975bac154fa83486812519626, type: 3}
+  CaptureDepth: {fileID: 4800000, guid: 633cb71df32c21b49940a6428d8e38a8, type: 3}
+  defaultMaterial: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+  defaultDecalMaterial: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+  shadowProxyMaterial: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+  defaultVolumetricFogMaterial: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+  rainDropMesh: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+  postProcessData: {fileID: 11400000, guid: a5d80f9873ad59d45b7b793062470270, type: 2}
+  specialDamageBloomConfig:
+    damageThreshold: 0.45
+    damageBloomIntenstiy: 0.35
+    damageBloomScaler: 1
+    damageBlurLevelWeights: {x: 1, y: 1, z: 1, w: 1}
+    damageRefGaussRadius: {x: 0.3, y: 0.05, z: 0.075, w: 0.7}
+  shaders:
+    blitPS: {fileID: 4800000, guid: d53fdf9c95c1f4f47974fb9a94eee841, type: 3}
+    hdrOutputPS: {fileID: 4800000, guid: 80694017649b68242a1fd9123284e056, type: 3}
+    blitForOffScreenParticlesPS: {fileID: 4800000, guid: 2ea05ae0543d7454583d4f5f6958e867, type: 3}
+    characterGhostBlitPS: {fileID: 4800000, guid: d3780075b94e9a84aaab4b2362ed2ee5, type: 3}
+    characterIgnisFatuusBlitPS: {fileID: 4800000, guid: f78ab84a6a6a8324094d65a5408274e6, type: 3}
+    copyDepthPS: {fileID: 4800000, guid: b2748ab15b868624dbd9c32ac99c7cb9, type: 3}
+    copyDepthForOffScreenParticlesPS: {fileID: 4800000, guid: 65cc152719aa12449aa61a67f829f1ae, type: 3}
+    screenSpaceShadowPS: {fileID: 4800000, guid: 25d68391cef7b704092285e37d83c021, type: 3}
+    samplingPS: {fileID: 4800000, guid: f54bb70f7f6c02a4db2041d79cfedddb, type: 3}
+    fallbackErrorPS: {fileID: 4800000, guid: 0490643f600d51a44be06a21ab9a3f2d, type: 3}
+    occlusionProcessPS: {fileID: 4800000, guid: df5e85a3c1caf0d45b171532e11378b7, type: 3}
+    occlusionBlurPS: {fileID: 4800000, guid: e664b131bd156a449b4ba01da2bf7dbd, type: 3}
+    gaussianBlurPS: {fileID: 4800000, guid: f62270f7d9cf4c447b05378f5a8656ea, type: 3}
+    blendOffScreenUIPS: {fileID: 4800000, guid: ec80f9e85c819e5449fff9210492f215, type: 3}
+    outlineEffectPS: {fileID: 4800000, guid: 1e982fe3383e09a4695e376666600237, type: 3}
+    vfxVolumetricShadowCS: {fileID: 7200000, guid: e8e4d89ec9eabc94483a05b8575c1e06, type: 2}
+    screenSpaceReflectionPS: {fileID: 4800000, guid: dd0982ae05599db4fbcb68c97de0fd22, type: 3}
+    screenSpaceGlobalIlluminationPS: {fileID: 4800000, guid: afbdb32c3b96af54ea6d24daab190136, type: 3}
+    screenSpaceGlobalIlluminationCS: {fileID: 7200000, guid: 0405eb3d7e542734fa3a9ca56add1939, type: 2}
+    depthPyramidPS: {fileID: 4800000, guid: d360f48e0de009f45962c8ae056d2513, type: 3}
+    deferredShadingPS: {fileID: 4800000, guid: 340d3c7929d4c814c80a93391d779602, type: 3}
+    buildScreenAABBCS: {fileID: 7200000, guid: c47ee43af258407448bfb12a3bd88ceb, type: 2}
+    buildPerTileLightListCS: {fileID: 7200000, guid: 36256d0ca316b5d4cbd5c47afcc0ee9d, type: 2}
+    buildPerBigTileLightListCS: {fileID: 7200000, guid: ae245820556847841987440dacd3d1b6, type: 2}
+    buildPerVoxelLightListCS: {fileID: 7200000, guid: a21f350c05656d54a86679fa0b4c500b, type: 2}
+    clearLightListsCS: {fileID: 7200000, guid: bbcf1e91da91bac4ab2397345cbd0f24, type: 2}
+    buildWorldGridLightListShaderCS: {fileID: 7200000, guid: 5719f133367caa84b9245c771c315456, type: 2}
+    rayDetectionCS: {fileID: 7200000, guid: 181c3b09f54a0a3498ef965812075f07, type: 2}
+    bulletHoleMaterial: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    blitCubeTextureFacePS: {fileID: 4800000, guid: 5e46b2d7716aefe488dd68400559132b, type: 3}
+    colorPyramidCS: {fileID: 7200000, guid: dcfd68b408ee6fc4ebd33f525eca7efd, type: 2}
+    gaussianBlurCS: {fileID: 7200000, guid: fc29c3182ceb8f744ad020061a4f2220, type: 2}
+    napBloomPS: {fileID: 4800000, guid: 443108c6b49353d4fb2c0c4222fc38bd, type: 3}
+    napBloomGaussPS: {fileID: 4800000, guid: 91284169498078e4ebd058760ca7b4d9, type: 3}
+    skyBoxPS: {fileID: 4800000, guid: 551a733fa847b2343b2b9baa5dc26d07, type: 3}
+    skyLutPS: {fileID: 4800000, guid: 7f60b84c69dd1414aa9d859070b05d48, type: 3}
+    lightShaftPS: {fileID: 4800000, guid: af6f028f121701940a402fc3101f30cd, type: 3}
+    lightShaftBlurPS: {fileID: 4800000, guid: 1fbdd5327b9e1784a9c66eac164ace18, type: 3}
+    lightShaftOcclusionPS: {fileID: 4800000, guid: e8023cf7a9f25e4498c576265f691cf5, type: 3}
+    lensFlareOcclusion: {fileID: 7200000, guid: 6c4c4149f322a204993965d2c22f6c2b, type: 2}
+    napCapsuleAoCulling: {fileID: 7200000, guid: c6084515c470da245be34ef46b457ffc, type: 2}
+    capsuleAO: {fileID: 7200000, guid: b39f5337ba18c1c4b8b4b144ae6ea157, type: 2}
+    contactShadowPS: {fileID: 4800000, guid: fc34e379a3e02d747b80e6fb1942e48d, type: 3}
+    blitShadowPS: {fileID: 4800000, guid: acdd753e76c223d4e9648ec344e25073, type: 3}
+    characterRamp: {fileID: 4800000, guid: 2fe5c0014c90e0f4887ae8f9e5d0b7d1, type: 3}
+    napVolumetricCloudCS: {fileID: 7200000, guid: d4217b2eaaa0ca744b9c8c47ffb463f9, type: 2}
+    volumetricCloudSampler: {fileID: 4800000, guid: 93853070d7cd44f4ab7f0f12ae308e7f, type: 3}
+    volumetricMistSampler: {fileID: 4800000, guid: d6259bdfa2b91a345b2e19c96b56c4a9, type: 3}
+    cameraIsIndoorCS: {fileID: 7200000, guid: dba3aaa101a5d8246a4941e7f577c9a6, type: 2}
+    getOceanOffsetAndNormalCS: {fileID: 7200000, guid: 69a97d0f89d2b3744b6d5290af9495a6, type: 2}
+    outlineObjectShader: {fileID: 4800000, guid: e9142f9bd3eee7d4d98de8cc0648569d, type: 3}
+    outlineProcessShader: {fileID: 4800000, guid: ca50f746b541e5c41b4f6660bb941a91, type: 3}
+    visQueryCS: {fileID: 7200000, guid: 070f551bf7e6b244a9ad5aa2e9a1d777, type: 2}
+    visiblePixelCounterShader: {fileID: 4800000, guid: ef602eea7203ec64caab43c0a1400528, type: 3}
+    visiblePixelCounterCS: {fileID: 7200000, guid: 27bbfe0b70a3aa94f9808b1db8309df4, type: 2}
+    perObjectShadowResolve: {fileID: 4800000, guid: 37b49ec9bb973f9459e20a085b9cd5dc, type: 3}
+    napEntityPrepare: {fileID: 7200000, guid: 09fd01c56e8d9eb479be6845f92503b1, type: 2}
+    PixelIndexedPlanarReflectionCS: {fileID: 7200000, guid: a5bd3217f3e068942b9809de014f2281, type: 2}
+    textureSheetPS: {fileID: 4800000, guid: bdf838d8747a2d74b832169e7549679e, type: 3}
+    spriteBloom: {fileID: 4800000, guid: e036d71d96fa8604c8c384a97190b05c, type: 3}
+    regionDetectFlareCS: {fileID: 7200000, guid: ccd25b8c9846ab54ca00bffbe3a5d607, type: 2}
+    regionBlit: {fileID: 4800000, guid: 7bfd98a0141f91c488ff5468a24c4358, type: 3}
+    offscreenParticleUI: {fileID: 4800000, guid: 58d3638275f404e459aa5539d8363b18, type: 3}
+    WaterGenCS: {fileID: 7200000, guid: 3d01477334c49b541a980f65922bd6cb, type: 2}
+    WaterInteractCS: {fileID: 7200000, guid: 284982ee9fc0fff47bea2148141c05b8, type: 2}
+    SetupWaterHeightCS: {fileID: 7200000, guid: 884a425b9f1d695438211a20f7ec377d, type: 2}
+    GpuBoidCS: {fileID: 7200000, guid: 34d6b0f7d204270448b89914edb1b7b3, type: 2}
+    LyraGIUpdateBakedDataClipmapCS: {fileID: 7200000, guid: c0dfa61750c987d41886056973713c86, type: 2}
+    LyraGIDebugClipmapCS: {fileID: 7200000, guid: c4f800dd22e3070428a64568d544d8ff, type: 2}
+    LyraGISectorVisualizationPS: {fileID: 4800000, guid: c7199062cdc074f479ebf24815e78298, type: 3}
+    LyraUpdateProbesCS: {fileID: 7200000, guid: 02c1d008181297e4a927ac5a45dcd574, type: 2}
+    LyraUpdateProbesAdditionalCS: {fileID: 7200000, guid: d4c9211ed9c203d4595c95f48e81baea, type: 2}
+    LyraApplyCS: {fileID: 7200000, guid: 951b1a85ac5f46f40879cc96ae826b6b, type: 2}
+    LyraDebugShader: {fileID: 4800000, guid: 034ae2a5b72e6fa4c8596ce59fe9846c, type: 3}
+    LyraDebugProbeCS: {fileID: 7200000, guid: 93e5ae9eaeb17b546b406d308c3841bb, type: 2}
+    ClearUtilCS: {fileID: 7200000, guid: dc5fda43d3cd0af40835f568e7a14a4d, type: 2}
+    fxPostProcessFogPS: {fileID: 4800000, guid: e89ad64180d82de499f19fea613756f1, type: 3}
+    damageDecalLUTShader: {fileID: 4800000, guid: 69d47d5c64e8bfc47abf91f7ca16d963, type: 3}
+    extraMotionVectorPassShader: {fileID: 4800000, guid: ae91075aaba1ef04a9e74c2e5363312e, type: 3}
+    transparentMaskShader: {fileID: 4800000, guid: a2d0419a876006e419b2f87be4eef487, type: 3}
+  rtxRes:
+    RTXPathTracer: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    RTXPathTracerHelper: {fileID: 7200000, guid: b2fa2e2c8524b3343bad437f3285043d, type: 2}
+    RTXAreaLight: {fileID: 7200000, guid: dcd16b240aebea74085932b6129f0049, type: 2}
+    RTXGI: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    RTXGICS: {fileID: 7200000, guid: ff4086fd55bc8104881af82eaa44daa3, type: 2}
+    RTXGIPS: {fileID: 4800000, guid: 61b72ca37ce57a045839f543f6661277, type: 3}
+    rankingTile: {fileID: 4900000, guid: e5f9bb11219f9be48beff1abc06c600d, type: 3}
+    sobol_256spp_256d: {fileID: 4900000, guid: 6ebb5572d84f4bb4d8f9c9feaff253d7, type: 3}
+    scramblingTile: {fileID: 4900000, guid: ba0ae2e72b1abf040a19b507bd03f16b, type: 3}
+  fluidFxRes:
+    M_MeshWindSourcePS: {fileID: 4800000, guid: 21834f35e410bf247b27caa3d7b02cc6, type: 3}
+    M_AdvectPS: {fileID: 4800000, guid: d2112a41eff64fc488516e5d12c31dd6, type: 3}
+    M_DivergencePS: {fileID: 4800000, guid: 75d8164d50fa1e345a093b8220a1bb3a, type: 3}
+    M_PressurePS: {fileID: 4800000, guid: ebbba2872f026e14596d8389a9055193, type: 3}
+    M_CompositeAndGradientPS: {fileID: 4800000, guid: 51caa8ce4d041394caea72ef76d67f27, type: 3}
+  textureStreamingFakerMesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  bakeResult:
+    sh[ 0]: 0.19645336
+    sh[ 1]: 0.14716898
+    sh[ 2]: 0.07095577
+    sh[ 3]: -0.035731338
+    sh[ 4]: -0.013271964
+    sh[ 5]: 0.03954843
+    sh[ 6]: 0.0054580355
+    sh[ 7]: -0.02630003
+    sh[ 8]: 0.004138811
+    sh[ 9]: 0.19645336
+    sh[10]: 0.14716898
+    sh[11]: 0.07095577
+    sh[12]: -0.035731338
+    sh[13]: -0.013271964
+    sh[14]: 0.03954843
+    sh[15]: 0.0054580355
+    sh[16]: -0.02630003
+    sh[17]: 0.004138811
+    sh[18]: 0.19645336
+    sh[19]: 0.14716898
+    sh[20]: 0.07095577
+    sh[21]: -0.035731338
+    sh[22]: -0.013271964
+    sh[23]: 0.03954843
+    sh[24]: 0.0054580355
+    sh[25]: -0.02630003
+    sh[26]: 0.004138811
+  shaderConfigs:
+  - shaderName: miHoYo/Character/NapAvatarHoYoGPUCrowdFace
+    feature: 543
+  - shaderName: miHoYo/Character/NapAvatarHoYoGPUCrowdStandard
+    feature: 8731
+  - shaderName: miHoYo/Character/NapAvatarSimpleTransparent
+    feature: 16770
+  - shaderName: miHoYo/Character/NapAvatarStandard
+    feature: 90203
+  - shaderName: miHoYo/Character/NapAvatarStandardEye
+    feature: 103
+  - shaderName: miHoYo/Character/NapAvatarStandardFace
+    feature: 8470623
+  - shaderName: miHoYo/Character/NapAvatarStandardTransparent
+    feature: 73875
+  - shaderName: miHoYo/Character/NapAvatarUI
+    feature: 28699
+  - shaderName: miHoYo/Character/NapAvatarUIEye
+    feature: 4135
+  - shaderName: miHoYo/Character/NapAvatarUIFace
+    feature: 20511
+  - shaderName: miHoYo/Character/NapAvatarUITransparent
+    feature: 12443
+  - shaderName: miHoYo/Character/NapAvatarShadowProxy
+    feature: 50332142
+  - shaderName: miHoYo/Character/NapAvatarSimple
+    feature: 16651
+  - shaderName: miHoYo/Character/NapAvatarSimpleFace
+    feature: 16655
+  - shaderName: miHoYo/Character/NapAvatarStandardEnergy
+    feature: 148506
+  - shaderName: miHoYo/Particles/Particles_Dissolve_CustomColor_Mask_Stencil
+    feature: 1024
+  - shaderName: miHoYo/Character/NapAvatarNPC
+    feature: 4284507
+  - shaderName: miHoYo/Character/NapAvatarNPCFace
+    feature: 81951
+  - shaderName: miHoYo/Character/NapAvatarNPCTransparent
+    feature: 73947
+  - shaderName: miHoYo/Character/NapStencilShadowCaster
+    feature: 1050627
+  - shaderName: miHoYo/Character/NapAvatarStandardEnergyOpaque
+    feature: 155739
+  - shaderName: miHoYo/Character/NapAvatarStandardEnergyFlow
+    feature: 33808
+  - shaderName: miHoYo/Scene/Lit
+    feature: 8
+  - shaderName: miHoYo/Character/NapAvatarAfterimage
+    feature: 16386
+  - shaderName: miHoYo/Character/NapAvatarEffectGlitch
+    feature: 33570907
+  - shaderName: miHoYo/Scene/Lit_ClearCoat
+    feature: 8
+  - shaderName: miHoYo/Character/NapAvatarSilhouetteScene
+    feature: 262144
+  - shaderName: miHoYo/Character/NapAvatarSilhouette
+    feature: 262144
+  - shaderName: miHoYo/Scene/Lit_ShadowProxy
+    feature: 16777224
+  - shaderName: miHoYo/Scene/Weapon
+    feature: 524288
+  - shaderName: miHoYo/Character/NapAvatarMach25
+    feature: 24666
+  - shaderName: miHoYo/Character/NapAvatarMach25Transparent
+    feature: 16770
+  - shaderName: miHoYo/Character/NapAvatarStandardGunEye
+    feature: 16474
+  - shaderName: miHoYo/Character/NapAvatarUIGunEye
+    feature: 20506
+  - shaderName: miHoYo/Particles/Particles_Dissolve_CustomColor_Mask
+    feature: 2097152
+  m_OpaqueLayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_TransparentLayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_DefaultStencilState:
+    overrideStencilState: 0
+    stencilReference: 0
+    stencilCompareFunction: 8
+    passOperation: 0
+    failOperation: 0
+    zFailOperation: 0
+  m_ShadowTransparentReceive: 1

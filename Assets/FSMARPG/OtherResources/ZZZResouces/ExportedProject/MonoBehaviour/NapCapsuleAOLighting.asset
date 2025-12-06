@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6321f4d38513a01eeaea6b710d249974, type: 3}
+  m_Name: NapCapsuleAOLighting
+  m_EditorClassIdentifier:
+  active: 1
+  m_AdvancedMode: 0
+  TypeId: 43
+  enableCapsuleAO:
+    m_OverrideState: 1
+    m_Value: 1
+  ambientIntensity:
+    m_OverrideState: 1
+    m_Value: 0.8
+    min: 0
+    max: 1
+  shadowIntensity:
+    m_OverrideState: 1
+    m_Value: 0.7
+    min: 0
+    max: 1
+  shadowSharpness:
+    m_OverrideState: 1
+    m_Value: 1.2
+    min: 0
+    max: 40
+  luminanceBlend:
+    m_OverrideState: 1
+    m_Value: 0
+    min: 0
+    max: 1

@@ -1,0 +1,26 @@
+fileFormatVersion: 2
+guid: 36848b4dce6c58244a6794e2d582a535
+timeCreated: 1764634855
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  externalObjects: {}
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: SDK_SC_Web
+  fontNames:
+  - SDK_SC_Web
+  fallbackFontReferences: []
+  customCharacters:
+  fontRenderingMode: 0
+  output:
+    hasEmptyFontData: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 0
+  userData:
+  assetBundleName:
+  assetBundleVariant:

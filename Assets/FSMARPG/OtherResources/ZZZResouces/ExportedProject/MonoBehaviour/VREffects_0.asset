@@ -1,0 +1,527 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7eee81f8df53179ad6ec2fdbc31c039, type: 3}
+  m_Name: VREffects
+  m_EditorClassIdentifier:
+  active: 0
+  m_AdvancedMode: 0
+  TypeId: 40
+  enable:
+    m_OverrideState: 1
+    m_Value: 1
+  hue:
+    m_OverrideState: 1
+    m_Value: 0
+    min: 0
+    max: 1
+  saturation:
+    m_OverrideState: 1
+    m_Value: 0
+    min: -1
+    max: 1
+  brightness:
+    m_OverrideState: 1
+    m_Value: 0
+    min: -1
+    max: 1
+  contrast:
+    m_OverrideState: 1
+    m_Value: 1
+    min: 0
+    max: 10
+  contrastMiddlePoint:
+    m_OverrideState: 1
+    m_Value: 0.5
+    min: 0
+    max: 1
+  colorTintNear:
+    m_OverrideState: 1
+    m_Value: {r: 1, g: 1, b: 1, a: 0}
+    hdr: 1
+    showAlpha: 1
+    showEyeDropper: 1
+  colorTintFar:
+    m_OverrideState: 1
+    m_Value: {r: 1, g: 1, b: 1, a: 0}
+    hdr: 1
+    showAlpha: 1
+    showEyeDropper: 1
+  colorTintStart:
+    m_OverrideState: 1
+    m_Value: 0
+  colorTintEnd:
+    m_OverrideState: 1
+    m_Value: 100
+  scanlineWidth:
+    m_OverrideState: 1
+    m_Value: 1
+    min: 1
+    max: 16
+  scanlineContrast:
+    m_OverrideState: 1
+    m_Value: 0
+    min: 0
+    max: 1
+  scanlineDistortion:
+    m_OverrideState: 1
+    m_Value: 0
+    min: 0
+    max: 1
+  sliceWidth:
+    m_OverrideState: 1
+    m_Value: 0.1
+    min: 0.1
+    max: 1
+  sliceAngle:
+    m_OverrideState: 1
+    m_Value: 0.1
+    min: 0.1
+    max: 89.9
+  reverse:
+    m_OverrideState: 1
+    m_Value: 1
+  sliceOffset:
+    m_OverrideState: 1
+    m_Value: 0
+    min: 0
+    max: 1
+  sliceColorA:
+    m_OverrideState: 1
+    m_Value: {r: 1, g: 1, b: 1, a: 0}
+    hdr: 1
+    showAlpha: 0
+    showEyeDropper: 1
+  sliceColorAMode:
+    m_OverrideState: 1
+    m_Value: 0
+  sliceColorB:
+    m_OverrideState: 1
+    m_Value: {r: 1, g: 1, b: 1, a: 0}
+    hdr: 1
+    showAlpha: 0
+    showEyeDropper: 1
+  sliceColorBMode:
+    m_OverrideState: 1
+    m_Value: 3
+  scanStart0:
+    m_OverrideState: 1
+    m_Value: 100
+  scanEnd0:
+    m_OverrideState: 1
+    m_Value: 550
+  scanStart0Soft:
+    m_OverrideState: 1
+    m_Value: 0.01
+    min: 0
+    max: 1
+  scanEnd0Soft:
+    m_OverrideState: 1
+    m_Value: 0.01
+    min: 0
+    max: 1
+  scanColor0:
+    m_OverrideState: 1
+    m_Value: {r: 1, g: 1, b: 1, a: 0}
+    hdr: 1
+    showAlpha: 1
+    showEyeDropper: 1
+  scanColor0Mode:
+    m_OverrideState: 1
+    m_Value: 0
+  scanStart1:
+    m_OverrideState: 1
+    m_Value: 0
+  scanEnd1:
+    m_OverrideState: 1
+    m_Value: 0
+  scanStart1Soft:
+    m_OverrideState: 1
+    m_Value: 0.01
+    min: 0
+    max: 1
+  scanEnd1Soft:
+    m_OverrideState: 1
+    m_Value: 0.01
+    min: 0
+    max: 1
+  scanColor1:
+    m_OverrideState: 1
+    m_Value: {r: 1, g: 1, b: 1, a: 0}
+    hdr: 1
+    showAlpha: 1
+    showEyeDropper: 1
+  scanColor1Mode:
+    m_OverrideState: 1
+    m_Value: 0
+  scanStart2:
+    m_OverrideState: 1
+    m_Value: 0
+  scanEnd2:
+    m_OverrideState: 1
+    m_Value: 0
+  scanStart2Soft:
+    m_OverrideState: 1
+    m_Value: 0
+    min: 0
+    max: 1
+  scanEnd2Soft:
+    m_OverrideState: 1
+    m_Value: 0
+    min: 0
+    max: 1
+  scanColor2:
+    m_OverrideState: 1
+    m_Value: {r: 1, g: 1, b: 1, a: 0}
+    hdr: 1
+    showAlpha: 1
+    showEyeDropper: 1
+  scanColor2Mode:
+    m_OverrideState: 1
+    m_Value: 0
+  scanStart3:
+    m_OverrideState: 1
+    m_Value: 0
+  scanEnd3:
+    m_OverrideState: 1
+    m_Value: 0
+  scanStart3Soft:
+    m_OverrideState: 1
+    m_Value: 0.01
+    min: 0
+    max: 1
+  scanEnd3Soft:
+    m_OverrideState: 1
+    m_Value: 0.01
+    min: 0
+    max: 1
+  scanColor3:
+    m_OverrideState: 1
+    m_Value: {r: 1, g: 1, b: 1, a: 0}
+    hdr: 1
+    showAlpha: 1
+    showEyeDropper: 1
+  scanColor3Mode:
+    m_OverrideState: 1
+    m_Value: 0
+  uvOffsetR:
+    m_OverrideState: 1
+    m_Value: {x: 0.001, y: 0}
+  colorR:
+    m_OverrideState: 1
+    m_Value: {r: 1, g: 1, b: 1, a: 1}
+    hdr: 1
+    showAlpha: 0
+    showEyeDropper: 1
+  uvOffsetG:
+    m_OverrideState: 1
+    m_Value: {x: 0.01, y: 0}
+  colorG:
+    m_OverrideState: 1
+    m_Value: {r: 1, g: 1, b: 1, a: 2}
+    hdr: 1
+    showAlpha: 0
+    showEyeDropper: 1
+  uvOffsetB:
+    m_OverrideState: 1
+    m_Value: {x: 0, y: 0}
+  colorB:
+    m_OverrideState: 1
+    m_Value: {r: 1, g: 1, b: 1, a: 1}
+    hdr: 1
+    showAlpha: 0
+    showEyeDropper: 1
+  fadeSourceImage:
+    m_OverrideState: 1
+    m_Value: 0
+    min: 0
+    max: 1
+  useStencil:
+    m_OverrideState: 0
+    m_Value: 0
+  gridOn:
+    m_OverrideState: 1
+    m_Value: 0
+  gridDistance:
+    m_OverrideState: 1
+    m_Value: 1
+  gridBlendScanLine:
+    m_OverrideState: 1
+    m_Value: 0
+  gridColor:
+    m_OverrideState: 1
+    m_Value: {r: 1, g: 1, b: 1, a: 1}
+    hdr: 1
+    showAlpha: 0
+    showEyeDropper: 1
+  gridPower:
+    m_OverrideState: 1
+    m_Value: 20
+  groundYPos:
+    m_OverrideState: 1
+    m_Value: 0
+  screenSpaceGrid:
+    m_OverrideState: 1
+    m_Value: 0
+  screenSpaceGridScale:
+    m_OverrideState: 1
+    m_Value: 0
+  screenSpaceGridWidth:
+    m_OverrideState: 1
+    m_Value: 0
+  outlineOn:
+    m_OverrideState: 1
+    m_Value: 1
+  outlineBlendScanLine:
+    m_OverrideState: 1
+    m_Value: 0
+  outlineOpacity:
+    m_OverrideState: 1
+    m_Value: 0
+    min: 0
+    max: 1
+  outlineDiffOffset:
+    m_OverrideState: 1
+    m_Value: 0
+  outlineDepthThreshold:
+    m_OverrideState: 1
+    m_Value: 0
+  outlineNormalThreshold:
+    m_OverrideState: 1
+    m_Value: 0
+  outlineNormalThresholdScale:
+    m_OverrideState: 1
+    m_Value: 0
+  outlineColor:
+    m_OverrideState: 1
+    m_Value: {r: 1, g: 1, b: 1, a: 0}
+    hdr: 1
+    showAlpha: 0
+    showEyeDropper: 1
+  outlineDistortion:
+    m_OverrideState: 1
+    m_Value: 0
+  outlineDistortionTex:
+    m_OverrideState: 1
+    m_Value: {fileID: 0}
+  outlineDistortionTexTiling:
+    m_OverrideState: 1
+    m_Value: {x: 1, y: 1}
+  outlineDistortionTexOffset:
+    m_OverrideState: 1
+    m_Value: {x: 0, y: 0}
+  outlineDistortionUVSpeed:
+    m_OverrideState: 1
+    m_Value: {x: 0, y: 0}
+  outlineDistortionOffset:
+    m_OverrideState: 1
+    m_Value: {x: 0, y: 0}
+  outlineDistortionIntensity:
+    m_OverrideState: 1
+    m_Value: {x: 0, y: 0}
+  textureSheetOn:
+    m_OverrideState: 1
+    m_Value: 0
+  textureSheetTex:
+    m_OverrideState: 1
+    m_Value: {fileID: 0}
+  textureSheetXY:
+    m_OverrideState: 1
+    m_Value: {x: 1, y: 1}
+  textureSheetIndex:
+    m_OverrideState: 1
+    m_Value: 0
+  textureSheetColor:
+    m_OverrideState: 1
+    m_Value: {r: 1, g: 1, b: 1, a: 1}
+    hdr: 1
+    showAlpha: 1
+    showEyeDropper: 1
+  scanType:
+    m_OverrideState: 1
+    m_Value: 0
+  useCustomScanDirection:
+    m_OverrideState: 1
+    m_Value: 0
+  customScanDirection:
+    m_OverrideState: 1
+    m_Value: 1
+    min: -1
+    max: 1
+  scanMaskType:
+    m_OverrideState: 1
+    m_Value: 0
+  scanMaskTex:
+    m_OverrideState: 1
+    m_Value: {fileID: 0}
+  scanMaskTexChannel:
+    m_OverrideState: 1
+    m_Value: 0
+  scanMaskTexTiling:
+    m_OverrideState: 1
+    m_Value: {x: 1, y: 1}
+  scanMaskTexOffset:
+    m_OverrideState: 1
+    m_Value: {x: 0, y: 0}
+  scanMaskTexUVSpeed:
+    m_OverrideState: 1
+    m_Value: {x: 0, y: 0}
+  scanMaskBaseY:
+    m_OverrideState: 0
+    m_Value: 0
+  scanMaskYRange:
+    m_OverrideState: 0
+    m_Value: 1
+  keepInFrontForUberPost:
+    m_OverrideState: 1
+    m_Value: 0
+  scanColor0End:
+    m_OverrideState: 1
+    m_Value: {r: 0, g: 0, b: 0, a: 0}
+    hdr: 1
+    showAlpha: 1
+    showEyeDropper: 1
+  scanMaskIntensity0:
+    m_OverrideState: 1
+    m_Value: 0
+    min: 0
+    max: 1
+  scanColor1End:
+    m_OverrideState: 1
+    m_Value: {r: 0, g: 0, b: 0, a: 0}
+    hdr: 1
+    showAlpha: 1
+    showEyeDropper: 1
+  scanMaskIntensity1:
+    m_OverrideState: 1
+    m_Value: 0
+    min: 0
+    max: 1
+  scanColor2End:
+    m_OverrideState: 1
+    m_Value: {r: 0, g: 0, b: 0, a: 0}
+    hdr: 1
+    showAlpha: 1
+    showEyeDropper: 1
+  scanMaskIntensity2:
+    m_OverrideState: 1
+    m_Value: 0
+    min: 0
+    max: 1
+  scanColor3End:
+    m_OverrideState: 1
+    m_Value: {r: 0, g: 0, b: 0, a: 0}
+    hdr: 1
+    showAlpha: 1
+    showEyeDropper: 1
+  scanMaskIntensity3:
+    m_OverrideState: 1
+    m_Value: 0
+    min: 0
+    max: 1
+  lensDistortionIntensity:
+    m_OverrideState: 1
+    m_Value: 0
+    min: -1
+    max: 1
+  lensDistortionXMultiplier:
+    m_OverrideState: 1
+    m_Value: 1
+    min: 0
+    max: 1
+  lensDistortionYMultiplier:
+    m_OverrideState: 1
+    m_Value: 1
+    min: 0
+    max: 1
+  lensDistortionCenter:
+    m_OverrideState: 1
+    m_Value: {x: 0.5, y: 0.5}
+  lensDistortionScale:
+    m_OverrideState: 1
+    m_Value: 1
+    min: 0.01
+    max: 5
+  useComicDot:
+    m_OverrideState: 0
+    m_Value: 0
+  dotBlendMode:
+    m_OverrideState: 0
+    m_Value: 0
+  dotUnitSize:
+    m_OverrideState: 0
+    m_Value: 5
+    min: 0.001
+  dotPercentage:
+    m_OverrideState: 0
+    m_Value: 0.3
+    min: 0
+    max: 1
+  comicDotAngle:
+    m_OverrideState: 0
+    m_Value: 60
+    min: 0
+    max: 360
+  comicDotColor:
+    m_OverrideState: 0
+    m_Value: {r: 1, g: 1, b: 1, a: 1}
+    hdr: 1
+    showAlpha: 1
+    showEyeDropper: 1
+  fadeByDepth:
+    m_OverrideState: 0
+    m_Value: 0
+  depthRange:
+    m_OverrideState: 0
+    m_Value: {x: 0, y: 10}
+    min: 0.001
+    max: 100
+  depthFadeOpacity:
+    m_OverrideState: 0
+    m_Value: {x: 0, y: 1}
+    min: 0
+    max: 1
+  fadeByDepthInvert:
+    m_OverrideState: 0
+    m_Value: 0
+  fadeByLuminance:
+    m_OverrideState: 0
+    m_Value: 0
+  luminanceRange:
+    m_OverrideState: 0
+    m_Value: {x: 0, y: 1}
+    min: 0
+    max: 1
+  luminanceFadeOpacity:
+    m_OverrideState: 0
+    m_Value: {x: 0, y: 1}
+    min: 0
+    max: 1
+  fadeByLuminanceInvert:
+    m_OverrideState: 0
+    m_Value: 0
+  blackColor:
+    m_OverrideState: 0
+    m_Value: {r: 0, g: 0, b: 0, a: 1}
+    hdr: 1
+    showAlpha: 1
+    showEyeDropper: 1
+  whiteColor:
+    m_OverrideState: 0
+    m_Value: {r: 1, g: 1, b: 1, a: 1}
+    hdr: 1
+    showAlpha: 1
+    showEyeDropper: 1
+  tint:
+    m_OverrideState: 0
+    m_Value: 0
+    min: 0
+    max: 1

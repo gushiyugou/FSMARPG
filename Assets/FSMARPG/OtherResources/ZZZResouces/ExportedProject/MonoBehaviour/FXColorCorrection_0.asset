@@ -1,0 +1,607 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f68920619d80a621ece7f4c0963de3e, type: 3}
+  m_Name: FXColorCorrection
+  m_EditorClassIdentifier:
+  active: 0
+  m_AdvancedMode: 0
+  TypeId: 19
+  postExposure:
+    m_OverrideState: 1
+    m_Value: 0
+  contrast:
+    m_OverrideState: 1
+    m_Value: 0
+    min: -100
+    max: 100
+  saturation:
+    m_OverrideState: 1
+    m_Value: 0
+    min: -100
+    max: 100
+  gamma:
+    m_OverrideState: 1
+    m_Value: 1
+    min: 0.001
+  lutInvert:
+    m_OverrideState: 1
+    m_Value: 0
+  lutToneColors:
+    m_OverrideState: 1
+    m_Value: 0
+  lutToneA:
+    m_OverrideState: 1
+    m_Value: {r: 0, g: 0, b: 0, a: 1}
+    hdr: 1
+    showAlpha: 0
+    showEyeDropper: 1
+  lutToneB:
+    m_OverrideState: 1
+    m_Value: {r: 1, g: 1, b: 1, a: 1}
+    hdr: 1
+    showAlpha: 0
+    showEyeDropper: 1
+  lutMiddlePoint:
+    m_OverrideState: 1
+    m_Value: 0.5
+    min: 0
+    max: 1
+  lutSoftness:
+    m_OverrideState: 1
+    m_Value: 0
+    min: 0
+    max: 1
+  desaturate:
+    m_OverrideState: 1
+    m_Value: 0
+    min: 0
+    max: 1
+  invert:
+    m_OverrideState: 1
+    m_Value: 0
+  toneColors:
+    m_OverrideState: 1
+    m_Value: 0
+  toneA:
+    m_OverrideState: 1
+    m_Value: {r: 0, g: 0, b: 0, a: 1}
+    hdr: 1
+    showAlpha: 0
+    showEyeDropper: 1
+  toneB:
+    m_OverrideState: 1
+    m_Value: {r: 1, g: 1, b: 1, a: 1}
+    hdr: 1
+    showAlpha: 0
+    showEyeDropper: 1
+  middlePoint:
+    m_OverrideState: 1
+    m_Value: 0.5
+    min: 0
+    max: 1
+  softness:
+    m_OverrideState: 1
+    m_Value: 0
+    min: 0
+    max: 1
+  fxFogMaskPassOn:
+    m_OverrideState: 1
+    m_Value: 0
+  fxColorSaturation:
+    m_OverrideState: 1
+    m_Value: 1
+    min: 0
+    max: 1
+  giIntensity:
+    m_OverrideState: 0
+    m_Value: 1
+    min: 0
+    max: 10
+  emissionIntensity:
+    m_OverrideState: 0
+    m_Value: 1
+    min: 0
+    max: 10
+  scenePostExposure:
+    m_OverrideState: 0
+    m_Value: 0
+    min: 0
+    max: 10
+  overrideSceneKodamaGIParams:
+    m_OverrideState: 0
+    m_Value: 0
+  kodamaDynamicGIIntensity:
+    m_OverrideState: 0
+    m_Value: 1
+    min: 0
+    max: 2
+  blurAmount:
+    m_OverrideState: 0
+    m_Value: 0
+    min: 0
+    max: 10
+  justControlParticleLight:
+    m_OverrideState: 1
+    m_Value: 0
+  localLightMultiplyIntensity:
+    m_OverrideState: 1
+    m_Value: 1
+  localLightThreadHold:
+    m_OverrideState: 1
+    m_Value: 0
+  enableCameraClip:
+    m_OverrideState: 1
+    m_Value: 0
+  cameraClipDistance:
+    m_OverrideState: 1
+    m_Value: 0.1
+    min: 0
+  cameraClipExtension:
+    m_OverrideState: 1
+    m_Value: {x: 500, y: 1, z: 500}
+  cameraClipAlpha:
+    m_OverrideState: 1
+    m_Value: 1
+    min: 0
+    max: 1
+  weatherConfig:
+    m_OverrideState: 1
+    m_Value: {fileID: 0}
+  weatherConfigWeight:
+    m_OverrideState: 1
+    m_Value: 0
+    min: 0
+    max: 1
+  fxScreenLightMaskOn:
+    m_OverrideState: 1
+    m_Value: 0
+  fxFxScreenLightMode:
+    m_OverrideState: 1
+    m_Value: 0
+  fxScreenLightColor:
+    m_OverrideState: 1
+    m_Value: {r: 1, g: 1, b: 1, a: 1}
+    hdr: 1
+    showAlpha: 0
+    showEyeDropper: 1
+  fxLightShaftMaskOn:
+    m_OverrideState: 1
+    m_Value: 0
+  overrideWeatherConfig:
+    m_OverrideState: 0
+    m_Value: 0
+  rainDropColor:
+    m_OverrideState: 1
+    m_Value: {r: 0, g: 0, b: 0, a: 0}
+    hdr: 1
+    showAlpha: 1
+    showEyeDropper: 1
+  wetnessNoiseClamp:
+    m_OverrideState: 1
+    m_Value: {x: 0, y: 0}
+  rainDropSplashColor:
+    m_OverrideState: 1
+    m_Value: {r: 0, g: 0, b: 0, a: 0}
+    hdr: 1
+    showAlpha: 1
+    showEyeDropper: 1
+  rainDropSplashCount:
+    m_OverrideState: 1
+    m_Value: 500
+    min: 500
+    max: 16000
+  distanceFogStart:
+    m_OverrideState: 1
+    m_Value: 0
+  fogHorizontalGradient:
+    m_OverrideState: 1
+    m_Value:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    hdr: 0
+    showAlpha: 1
+    showEyeDropper: 1
+  heightFogHeight:
+    m_OverrideState: 1
+    m_Value: 0
+  heightFogStart:
+    m_OverrideState: 1
+    m_Value: 0
+  volumetricFogColor:
+    m_OverrideState: 1
+    m_Value: {r: 0, g: 0, b: 0, a: 0}
+    hdr: 0
+    showAlpha: 0
+    showEyeDropper: 1
+  skyVerticalGradient:
+    m_OverrideState: 1
+    m_Value:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    hdr: 0
+    showAlpha: 1
+    showEyeDropper: 1
+  skyHorizontalGradient:
+    m_OverrideState: 1
+    m_Value:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    hdr: 0
+    showAlpha: 1
+    showEyeDropper: 1
+  skyHorizontalHeight:
+    m_OverrideState: 1
+    m_Value: 0
+    min: 0
+    max: 1
+  skyHorizontalOffset:
+    m_OverrideState: 1
+    m_Value: 0
+    min: 0
+    max: 1
+  skyCloudHorizontalGradient:
+    m_OverrideState: 1
+    m_Value:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    hdr: 0
+    showAlpha: 1
+    showEyeDropper: 1
+  sunDiscColor:
+    m_OverrideState: 1
+    m_Value: {r: 0, g: 0, b: 0, a: 0}
+    hdr: 0
+    showAlpha: 0
+    showEyeDropper: 1
+  layer1MiddleCloudGradient:
+    m_OverrideState: 1
+    m_Value:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    hdr: 0
+    showAlpha: 1
+    showEyeDropper: 1
+  layer1CloudAroundSunColor:
+    m_OverrideState: 1
+    m_Value: {r: 0, g: 0, b: 0, a: 0}
+    hdr: 1
+    showAlpha: 0
+    showEyeDropper: 1
+  layer2MiddleCloudGradient:
+    m_OverrideState: 1
+    m_Value:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    hdr: 0
+    showAlpha: 1
+    showEyeDropper: 1
+  layer2CloudAroundSunColor:
+    m_OverrideState: 1
+    m_Value: {r: 0, g: 0, b: 0, a: 0}
+    hdr: 1
+    showAlpha: 0
+    showEyeDropper: 1
+  layer3MiddleCloudGradient:
+    m_OverrideState: 1
+    m_Value:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    hdr: 0
+    showAlpha: 1
+    showEyeDropper: 1
+  layer3CloudAroundSunColor:
+    m_OverrideState: 1
+    m_Value: {r: 0, g: 0, b: 0, a: 0}
+    hdr: 1
+    showAlpha: 0
+    showEyeDropper: 1
+  sceneLutContribution:
+    m_OverrideState: 1
+    m_Value: 0.19
+    min: 0
+    max: 1
+  ambientSkyColor:
+    m_OverrideState: 0
+    m_Value: {r: 0, g: 0, b: 0, a: 0}
+    hdr: 1
+    showAlpha: 0
+    showEyeDropper: 1
+  ambientEquatorColor:
+    m_OverrideState: 0
+    m_Value: {r: 0, g: 0, b: 0, a: 0}
+    hdr: 1
+    showAlpha: 0
+    showEyeDropper: 1
+  ambientGroundColor:
+    m_OverrideState: 0
+    m_Value: {r: 0, g: 0, b: 0, a: 0}
+    hdr: 1
+    showAlpha: 0
+    showEyeDropper: 1
+  overrideWeatherGIConfig:
+    m_OverrideState: 0
+    m_Value: 0
+  skyColor:
+    m_OverrideState: 0
+    m_Value: {r: 0, g: 0, b: 0, a: 1}
+    hdr: 1
+    showAlpha: 0
+    showEyeDropper: 1
+  middleColor:
+    m_OverrideState: 0
+    m_Value: {r: 0, g: 0, b: 0, a: 1}
+    hdr: 1
+    showAlpha: 0
+    showEyeDropper: 1
+  groundColor:
+    m_OverrideState: 0
+    m_Value: {r: 0, g: 0, b: 0, a: 1}
+    hdr: 1
+    showAlpha: 0
+    showEyeDropper: 1
+  indirectSpecularIntensity:
+    m_OverrideState: 1
+    m_Value: 1
+    min: 0
+    max: 10
+  enableLightShaft:
+    m_OverrideState: 1
+    m_Value: 0
+  lightShaftThreshold:
+    m_OverrideState: 1
+    m_Value: 1
+    min: 0
+    max: 2
+  lightShaftIntensity:
+    m_OverrideState: 1
+    m_Value: 0.1
+    min: 0.001
+    max: 1
+  lightShaftColorClamp:
+    m_OverrideState: 1
+    m_Value: 1
+  lightShaftColor:
+    m_OverrideState: 1
+    m_Value: {r: 1, g: 1, b: 1, a: 1}
+    hdr: 1
+    showAlpha: 0
+    showEyeDropper: 0
+  lightShaftLength:
+    m_OverrideState: 1
+    m_Value: 1
+    min: 0
+    max: 2
+  lightShaftFadeLength:
+    m_OverrideState: 1
+    m_Value: 0.05
+    min: 0.05
+    max: 0.5
+  lightShaftBlur:
+    m_OverrideState: 1
+    m_Value: 0
+  lightShaftUseCustomCenter:
+    m_OverrideState: 0
+    m_Value: 0
+  lightShaftCustomCenter:
+    m_OverrideState: 0
+    m_Value: {x: 0.5, y: 0.5}
+  sceneSpecialPPSEffectIntensity:
+    m_OverrideState: 1
+    m_Value: 0
+    min: 0
+    max: 1
+  sceneSpecialSkyWeight:
+    m_OverrideState: 1
+    m_Value: 0
+    min: 0
+    max: 1
+  sceneSpecialSkySaturation:
+    m_OverrideState: 1
+    m_Value: 1
+    min: 0
+    max: 1
+  sceneSpecialPPSIgnoreRidus:
+    m_OverrideState: 1
+    m_Value: 1
+    min: 0
+  sceneSpecialPPSRadiusAlphaPow:
+    m_OverrideState: 1
+    m_Value: 1
+    min: 0
+  sceneSpecialPPSEmissionColor:
+    m_OverrideState: 1
+    m_Value: {r: 1, g: 1, b: 1, a: 1}
+    hdr: 1
+    showAlpha: 0
+    showEyeDropper: 0

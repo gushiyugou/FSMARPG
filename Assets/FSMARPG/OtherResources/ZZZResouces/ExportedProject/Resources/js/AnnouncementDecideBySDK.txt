@@ -1,0 +1,32 @@
+(function() {
+    // 保存原方法
+    miHoYoGameJSSDK.__openInWebView = miHoYoGameJSSDK.openInWebview;
+    // 替换
+    var openInWebWeb_selfDefined = function() {
+
+let arg = "";
+let isDecideBySdk = false;
+  for (let i = 0; i < arguments.length; i++) {
+      arg = arguments[i];
+    if (arg.indexOf("decide_by_sdk=true") >= 0) {
+        isDecideBySdk = true;
+        break;
+    }
+  }
+if (isDecideBySdk) {
+    if (miHoYoGameJSSDK.decideOpenInterner) {
+        return miHoYoGameJSSDK.__openInWebView.apply(this, arguments);
+    } else {
+        return miHoYoGameJSSDK.openInBrowser.apply(this, arguments);
+    }
+}
+        return miHoYoGameJSSDK.__openInWebView.apply(this, arguments);
+    }
+    // 屏蔽js对原函数native属性的检测
+    openInWebWeb_selfDefined.toString = function() {
+        return miHoYoGameJSSDK.__openInWebView + ""
+    }
+    Object.defineProperty(miHoYoGameJSSDK, 'openInWebview', {
+        value: openInWebWeb_selfDefined
+    });
+})();

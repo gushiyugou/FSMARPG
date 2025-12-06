@@ -1,0 +1,126 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d9820a0a9a4468ef64d46ba5ce96c5a, type: 3}
+  m_Name: PostProcessData
+  m_EditorClassIdentifier:
+  shaders:
+    stopNanPS: {fileID: 4800000, guid: 42fd6cbc7562a6c4badfaac37c7974bf, type: 3}
+    subpixelMorphologicalAntialiasingPS: {fileID: 4800000, guid: 985fa2412efdff145b205dc567528ce4, type: 3}
+    temporalAntialiasingPS: {fileID: 4800000, guid: a3a7385fd63ebdc42bef04fd0560681d, type: 3}
+    gaussianDepthOfFieldPS: {fileID: 4800000, guid: dac0a517fc108cd42bc716856d39c1e2, type: 3}
+    bokehDepthOfFieldPS: {fileID: 4800000, guid: 530fd72d93481854bbf12be37ac3dcec, type: 3}
+    cameraMotionBlurPS: {fileID: 4800000, guid: d343c210f712ee841a65ff74cb319c8b, type: 3}
+    paniniProjectionPS: {fileID: 4800000, guid: 04ee8e7c3fdc26049840211e55a27acc, type: 3}
+    lutBuilderLdrPS: {fileID: 4800000, guid: 6854115765ef00f45b22f84ebdd4df1b, type: 3}
+    lutBuilderHdrPS: {fileID: 4800000, guid: 1e3f840153196f947bf314644c1f5ecd, type: 3}
+    bloomPS: {fileID: 4800000, guid: 3249ba48d2fd1654c9f8da608a9adbc3, type: 3}
+    uberPostPS: {fileID: 4800000, guid: 30663559b9df6b349a3fc24178bcfa22, type: 3}
+    opaqueUberPostPS: {fileID: 4800000, guid: 76160f3636e5d9747ada53ef434d0893, type: 3}
+    finalPostPassPS: {fileID: 4800000, guid: a4e59f18f5b3500429fe81f2ea4ad2c4, type: 3}
+    radialBlurPS: {fileID: 4800000, guid: 917e9f566e4c11e46ae59dcae1e739d2, type: 3}
+    napBloomPS: {fileID: 4800000, guid: 443108c6b49353d4fb2c0c4222fc38bd, type: 3}
+    HQNapBloomPS: {fileID: 4800000, guid: 16c1f59fb5bc4db43b05e178b170b968, type: 3}
+    HQNapBloomBlurCS: {fileID: 7200000, guid: b482f1d54e51e6f43aa237ca246a640f, type: 2}
+    HQNapBloomUpCombineCS: {fileID: 7200000, guid: 41a6913e1aae6504cafe12fdfe5ce58c, type: 2}
+    napBloomGaussPS: {fileID: 4800000, guid: 91284169498078e4ebd058760ca7b4d9, type: 3}
+    FSRPS: {fileID: 4800000, guid: e974c8f8056327b47b9b84bf532aa61e, type: 3}
+    LensFlareDataDrivePS: {fileID: 4800000, guid: 2c91f753160d981408b527a6ec0b81b0, type: 3}
+    distortionBlitPS: {fileID: 4800000, guid: ab91f72893e934c4a9f5da383862d765, type: 3}
+    partialBlurPS: {fileID: 4800000, guid: 38ff89acf599d3c41a08cefc57fae652, type: 3}
+    comicDotPS: {fileID: 4800000, guid: d5f90b7eb3e568e4ca9d2245832e9c30, type: 3}
+    GSRPS: {fileID: 4800000, guid: 6a4d89286ab7d644f86af1101f51dba4, type: 3}
+    vrEffectsPS: {fileID: 4800000, guid: 19c44517f36647942b3f619a16f634a5, type: 3}
+    unsharpMaskPS: {fileID: 4800000, guid: c8cf5dd8f4022344ab4c4afacfe437ed, type: 3}
+    PPFilterFilterPS: {fileID: 4800000, guid: 2792f5e512f46bc4c83c7f846382ada2, type: 3}
+    CharacterGhostPS: {fileID: 4800000, guid: adbf9946562b1b9478e6332f7b200fdd, type: 3}
+    CharacterIgnisFatuusPS: {fileID: 4800000, guid: b8cd1a210c4ddac47878ba107e7c4faf, type: 3}
+  textures:
+    blueNoise16LTex:
+    - {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    - {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    - {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    - {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    - {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    - {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    - {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    - {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    - {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    - {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    - {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    - {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    - {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    - {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    - {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    - {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    - {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    - {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    - {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    - {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    - {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    - {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    - {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    - {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    - {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    - {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    - {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    - {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    - {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    - {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    - {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    - {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    blueNoise16TexLSizes:
+    - {x: 16, y: 16}
+    - {x: 16, y: 16}
+    - {x: 16, y: 16}
+    - {x: 16, y: 16}
+    - {x: 16, y: 16}
+    - {x: 16, y: 16}
+    - {x: 16, y: 16}
+    - {x: 16, y: 16}
+    - {x: 16, y: 16}
+    - {x: 16, y: 16}
+    - {x: 16, y: 16}
+    - {x: 16, y: 16}
+    - {x: 16, y: 16}
+    - {x: 16, y: 16}
+    - {x: 16, y: 16}
+    - {x: 16, y: 16}
+    - {x: 16, y: 16}
+    - {x: 16, y: 16}
+    - {x: 16, y: 16}
+    - {x: 16, y: 16}
+    - {x: 16, y: 16}
+    - {x: 16, y: 16}
+    - {x: 16, y: 16}
+    - {x: 16, y: 16}
+    - {x: 16, y: 16}
+    - {x: 16, y: 16}
+    - {x: 16, y: 16}
+    - {x: 16, y: 16}
+    - {x: 16, y: 16}
+    - {x: 16, y: 16}
+    - {x: 16, y: 16}
+    - {x: 16, y: 16}
+    filmGrainTex:
+    - {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    - {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    - {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    - {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    - {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    - {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    - {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    - {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    - {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    - {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    smaaAreaTex: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    smaaSearchTex: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+    noiseTex128: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}

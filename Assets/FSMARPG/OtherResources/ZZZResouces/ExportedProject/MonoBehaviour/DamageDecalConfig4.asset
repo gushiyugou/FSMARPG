@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9aec9728ffdbc649a1b9c1e1d62ae02, type: 3}
+  m_Name: DamageDecalConfig4
+  m_EditorClassIdentifier:
+  effectIndex: 4
+  width: 1
+  height: 1
+  depth: 2
+  lifetime: 2
+  damageColor: {r: 32, g: 2.1780105, b: 0, a: 1}
+  damageTexture: {fileID: 0, guid: 0000000deadbeef15deadf00d0000000, type: 2}

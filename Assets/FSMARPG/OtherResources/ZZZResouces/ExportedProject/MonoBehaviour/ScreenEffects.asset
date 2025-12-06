@@ -1,0 +1,623 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a8bf58e41b040c59a37b140ce67c91a, type: 3}
+  m_Name: ScreenEffects
+  m_EditorClassIdentifier:
+  active: 0
+  m_AdvancedMode: 0
+  TypeId: 6
+  enabled:
+    m_OverrideState: 1
+    m_Value: 0
+  blendMode:
+    m_OverrideState: 1
+    m_Value: 0
+  polarUVAspect:
+    m_OverrideState: 1
+    m_Value: 0
+    min: 0
+    max: 1
+  boundaryMode:
+    m_OverrideState: 1
+    m_Value: 0
+  boundaryUVAspect:
+    m_OverrideState: 1
+    m_Value: 0
+    min: 0
+    max: 1
+  boundary:
+    m_OverrideState: 1
+    m_Value: 0.3
+    min: 0
+    max: 1
+  feather:
+    m_OverrideState: 1
+    m_Value: 1
+    min: 0
+    max: 1
+  maxOpacity:
+    m_OverrideState: 1
+    m_Value: 0
+    min: 0
+    max: 1
+  invert:
+    m_OverrideState: 1
+    m_Value: 0
+  mainTex:
+    m_OverrideState: 1
+    m_Value: {fileID: 0}
+  mainTexUvMode:
+    m_OverrideState: 1
+    m_Value: 0
+  mainTexScaleOffset:
+    m_OverrideState: 1
+    m_Value: {x: 1, y: 1, z: 0, w: 0}
+  useRGBColorChannelMapping:
+    m_OverrideState: 1
+    m_Value: 0
+  colorChannelMapping:
+    m_OverrideState: 1
+    m_Value: 0
+  alphaChannelMapping:
+    m_OverrideState: 1
+    m_Value: 0
+  colorA:
+    m_OverrideState: 1
+    m_Value: {r: 0, g: 0, b: 0, a: 0}
+    hdr: 1
+    showAlpha: 1
+    showEyeDropper: 1
+  colorB:
+    m_OverrideState: 1
+    m_Value: {r: 0, g: 0, b: 0, a: 0}
+    hdr: 1
+    showAlpha: 1
+    showEyeDropper: 1
+  lerpBrightness:
+    m_OverrideState: 1
+    m_Value: 1
+    min: 0
+  uvMoveSpeed:
+    m_OverrideState: 1
+    m_Value: {x: 0, y: 0}
+  maskTex:
+    m_OverrideState: 1
+    m_Value: {fileID: 0}
+  maskTexUvMode:
+    m_OverrideState: 1
+    m_Value: 0
+  maskTexScaleOffset:
+    m_OverrideState: 1
+    m_Value: {x: 1, y: 1, z: 0, w: 0}
+  maskChannelMapping:
+    m_OverrideState: 1
+    m_Value: 0
+  maskUvMoveSpeed:
+    m_OverrideState: 1
+    m_Value: {x: 0, y: 0}
+  dissolveTex:
+    m_OverrideState: 1
+    m_Value: {fileID: 0}
+  dissolveTexUvMode:
+    m_OverrideState: 1
+    m_Value: 0
+  dissolveTexScaleOffset:
+    m_OverrideState: 1
+    m_Value: {x: 1, y: 1, z: 0, w: 0}
+  dissolveChannel:
+    m_OverrideState: 1
+    m_Value: 0
+  dissolveProgress:
+    m_OverrideState: 1
+    m_Value: 0
+    min: 0
+    max: 1
+  dissolveUVSpeed:
+    m_OverrideState: 1
+    m_Value: {x: 0, y: 0}
+  dissolveRandomUV:
+    m_OverrideState: 1
+    m_Value: 0
+  dissolveAffects2Tone:
+    m_OverrideState: 1
+    m_Value: 1
+  distortionTex:
+    m_OverrideState: 1
+    m_Value: {fileID: 0}
+  distortionTexUvMode:
+    m_OverrideState: 1
+    m_Value: 0
+  distortionTexScaleOffset:
+    m_OverrideState: 1
+    m_Value: {x: 1, y: 1, z: 0, w: 0}
+  distortionChannel:
+    m_OverrideState: 1
+    m_Value: 0
+  distortionUVSpeed:
+    m_OverrideState: 1
+    m_Value: {x: 0, y: 0}
+  distortionRandomUV:
+    m_OverrideState: 1
+    m_Value: 0
+  distortionIntensity:
+    m_OverrideState: 1
+    m_Value: 0
+    min: 0
+    max: 2
+  dissolveDistortionIntensity:
+    m_OverrideState: 1
+    m_Value: 0
+    min: 0
+    max: 2
+  softRange:
+    m_OverrideState: 1
+    m_Value: 0
+    min: 0
+    max: 1
+  alphaCutoff:
+    m_OverrideState: 1
+    m_Value: 0
+    min: 0
+    max: 1
+  screenDistortion:
+    m_OverrideState: 1
+    m_Value: 0
+  screenDistortionTex:
+    m_OverrideState: 1
+    m_Value: {fileID: 0}
+  screenDistortionTexUvMode:
+    m_OverrideState: 1
+    m_Value: 0
+  screenDistortionTexScaleOffset:
+    m_OverrideState: 1
+    m_Value: {x: 1, y: 1, z: 0, w: 0}
+  screenDistortionIntensity:
+    m_OverrideState: 1
+    m_Value: 1
+    min: -5
+    max: 5
+  screenDistortionUVSpeed:
+    m_OverrideState: 1
+    m_Value: {x: 0, y: 0}
+  ignoreTimeScale:
+    m_OverrideState: 1
+    m_Value: 0
+  characterIgnisFatuusActive:
+    m_OverrideState: 0
+    m_Value: 0
+  characterIgnisFatuusDownSample:
+    m_OverrideState: 0
+    m_Value: 1
+    min: 0
+    max: 2
+  characterIgnisFatuusSelfMask:
+    m_OverrideState: 0
+    m_Value: 0
+  characterIgnisFatuusDepthMaskOffset:
+    m_OverrideState: 0
+    m_Value: 1
+    min: 0
+    max: 10
+  characterIgnisFatuusColorBlendMode:
+    m_OverrideState: 0
+    m_Value: 0
+  useIgnisFatuusColorTextureAlpha:
+    m_OverrideState: 0
+    m_Value: 0
+  characterIgnisFatuusColor:
+    m_OverrideState: 0
+    m_Value: {r: 1, g: 1, b: 1, a: 1}
+    hdr: 1
+    showAlpha: 1
+    showEyeDropper: 1
+  characterIgnisFatuusColorTexture:
+    m_OverrideState: 0
+    m_Value: {fileID: 0}
+  characterIgnisFatuusColorTextureUVScale:
+    m_OverrideState: 0
+    m_Value: {x: 1, y: 1}
+  characterIgnisFatuusColorTextureUVSpeed:
+    m_OverrideState: 0
+    m_Value: {x: 0, y: 0}
+  characterIgnisFatuusNoiseTexture:
+    m_OverrideState: 0
+    m_Value: {fileID: 0}
+  characterIgnisFatuusNoiseTextureUVScale:
+    m_OverrideState: 0
+    m_Value: {x: 1, y: 1}
+  characterIgnisFatuusNoiseTextureUVSpeed:
+    m_OverrideState: 0
+    m_Value: {x: 0, y: 0}
+  characterIgnisFatuusDistortionIntensity:
+    m_OverrideState: 0
+    m_Value: 0.45
+    min: 0
+    max: 1
+  characterIgnisFatuusDistortionOffset:
+    m_OverrideState: 0
+    m_Value: 0
+    min: -0.2
+    max: 0.2
+  characterIgnisFatuusBlurPow:
+    m_OverrideState: 0
+    m_Value: 1
+    min: 1
+    max: 5
+  characterIgnisFatuusColorDistortionIntensity:
+    m_OverrideState: 0
+    m_Value: 0
+    min: 0
+    max: 10
+  characterIgnisFatuusColor2:
+    m_OverrideState: 0
+    m_Value: {r: 1, g: 1, b: 1, a: 1}
+    hdr: 1
+    showAlpha: 1
+    showEyeDropper: 1
+  characterIgnisFatuusColorTexture2:
+    m_OverrideState: 0
+    m_Value: {fileID: 0}
+  characterIgnisFatuusColorTextureUVScale2:
+    m_OverrideState: 0
+    m_Value: {x: 1, y: 1}
+  characterIgnisFatuusColorTextureUVSpeed2:
+    m_OverrideState: 0
+    m_Value: {x: 0, y: 0}
+  characterIgnisFatuusNoiseTexture2:
+    m_OverrideState: 0
+    m_Value: {fileID: 0}
+  characterIgnisFatuusNoiseTextureUVScale2:
+    m_OverrideState: 0
+    m_Value: {x: 1, y: 1}
+  characterIgnisFatuusNoiseTextureUVSpeed2:
+    m_OverrideState: 0
+    m_Value: {x: 0, y: 0}
+  characterIgnisFatuusDistortionIntensity2:
+    m_OverrideState: 0
+    m_Value: 0.45
+    min: 0
+    max: 1
+  characterIgnisFatuusDistortionOffset2:
+    m_OverrideState: 0
+    m_Value: 0
+    min: -0.2
+    max: 0.2
+  characterIgnisFatuusBlurPow2:
+    m_OverrideState: 0
+    m_Value: 1
+    min: 1
+    max: 5
+  characterIgnisFatuusColorDistortionIntensity2:
+    m_OverrideState: 0
+    m_Value: 0
+    min: 0
+    max: 10
+  characterIgnisFatuusSoftEdgePow:
+    m_OverrideState: 0
+    m_Value: 0
+    min: 0
+    max: 1
+  characterIgnisFatuusSoftEdgeRange:
+    m_OverrideState: 0
+    m_Value: 0.4
+    min: 0
+    max: 1
+  characterIgnisFatuusDisappearStart:
+    m_OverrideState: 0
+    m_Value: 4
+    min: 0
+    max: 20
+  characterIgnisFatuusDisappearEnd:
+    m_OverrideState: 0
+    m_Value: 15
+    min: 0
+    max: 50
+  monsterIgnisFatuusActive:
+    m_OverrideState: 0
+    m_Value: 0
+  monsterIgnisFatuusDownSample:
+    m_OverrideState: 0
+    m_Value: 1
+    min: 0
+    max: 2
+  monsterIgnisFatuusSelfMask:
+    m_OverrideState: 0
+    m_Value: 0
+  monsterIgnisFatuusDepthMaskOffset:
+    m_OverrideState: 0
+    m_Value: 1
+    min: 0
+    max: 10
+  monsterIgnisFatuusColorBlendMode:
+    m_OverrideState: 0
+    m_Value: 0
+  useMonsterIgnisFatuusColorTextureAlpha:
+    m_OverrideState: 0
+    m_Value: 0
+  monsterIgnisFatuusColor:
+    m_OverrideState: 0
+    m_Value: {r: 1, g: 1, b: 1, a: 1}
+    hdr: 1
+    showAlpha: 1
+    showEyeDropper: 1
+  monsterIgnisFatuusColorTexture:
+    m_OverrideState: 0
+    m_Value: {fileID: 0}
+  monsterIgnisFatuusColorTextureUVScale:
+    m_OverrideState: 0
+    m_Value: {x: 1, y: 1}
+  monsterIgnisFatuusColorTextureUVSpeed:
+    m_OverrideState: 0
+    m_Value: {x: 0, y: 0}
+  monsterIgnisFatuusNoiseTexture:
+    m_OverrideState: 0
+    m_Value: {fileID: 0}
+  monsterIgnisFatuusNoiseTextureUVScale:
+    m_OverrideState: 0
+    m_Value: {x: 1, y: 1}
+  monsterIgnisFatuusNoiseTextureUVSpeed:
+    m_OverrideState: 0
+    m_Value: {x: 0, y: 0}
+  monsterIgnisFatuusDistortionIntensity:
+    m_OverrideState: 0
+    m_Value: 0.45
+    min: 0
+    max: 1
+  monsterIgnisFatuusDistortionOffset:
+    m_OverrideState: 0
+    m_Value: 0
+    min: -0.2
+    max: 0.2
+  monsterIgnisFatuusBlurPow:
+    m_OverrideState: 0
+    m_Value: 1
+    min: 1
+    max: 5
+  monsterIgnisFatuusColorDistortionIntensity:
+    m_OverrideState: 0
+    m_Value: 0
+    min: 0
+    max: 10
+  monsterIgnisFatuusColor2:
+    m_OverrideState: 0
+    m_Value: {r: 1, g: 1, b: 1, a: 1}
+    hdr: 1
+    showAlpha: 1
+    showEyeDropper: 1
+  monsterIgnisFatuusColorTexture2:
+    m_OverrideState: 0
+    m_Value: {fileID: 0}
+  monsterIgnisFatuusColorTextureUVScale2:
+    m_OverrideState: 0
+    m_Value: {x: 1, y: 1}
+  monsterIgnisFatuusColorTextureUVSpeed2:
+    m_OverrideState: 0
+    m_Value: {x: 0, y: 0}
+  monsterIgnisFatuusNoiseTexture2:
+    m_OverrideState: 0
+    m_Value: {fileID: 0}
+  monsterIgnisFatuusNoiseTextureUVScale2:
+    m_OverrideState: 0
+    m_Value: {x: 1, y: 1}
+  monsterIgnisFatuusNoiseTextureUVSpeed2:
+    m_OverrideState: 0
+    m_Value: {x: 0, y: 0}
+  monsterIgnisFatuusDistortionIntensity2:
+    m_OverrideState: 0
+    m_Value: 0.45
+    min: 0
+    max: 1
+  monsterIgnisFatuusDistortionOffset2:
+    m_OverrideState: 0
+    m_Value: 0
+    min: -0.2
+    max: 0.2
+  monsterIgnisFatuusBlurPow2:
+    m_OverrideState: 0
+    m_Value: 1
+    min: 1
+    max: 5
+  monsterIgnisFatuusColorDistortionIntensity2:
+    m_OverrideState: 0
+    m_Value: 0
+    min: 0
+    max: 10
+  monsterIgnisFatuusSoftEdgePow:
+    m_OverrideState: 0
+    m_Value: 0
+    min: 0
+    max: 1
+  monsterIgnisFatuusSoftEdgeRange:
+    m_OverrideState: 0
+    m_Value: 0.4
+    min: 0
+    max: 1
+  monsterIgnisFatuusDisappearStart:
+    m_OverrideState: 0
+    m_Value: 4
+    min: 0
+    max: 20
+  monsterIgnisFatuusDisappearEnd:
+    m_OverrideState: 0
+    m_Value: 15
+    min: 0
+    max: 50
+  characterGhost:
+    m_OverrideState: 1
+    m_Value: 0
+  characterGhostBlitWithProxy:
+    m_OverrideState: 1
+    m_Value: 0
+  characterGhostDownSample:
+    m_OverrideState: 1
+    m_Value: 0
+    min: 0
+    max: 2
+  characterGhostDistortionTexture:
+    m_OverrideState: 1
+    m_Value: {fileID: 0}
+  characterGhostDistortionUVScale:
+    m_OverrideState: 1
+    m_Value: {x: 1, y: 1}
+  characterGhostDistortionUVSpeed:
+    m_OverrideState: 1
+    m_Value: {x: 0, y: 0}
+  characterGhostRadius:
+    m_OverrideState: 1
+    m_Value: 1
+    min: 0
+    max: 30
+  characterGhostIntensity:
+    m_OverrideState: 1
+    m_Value: 1
+    min: 0
+    max: 2
+  characterGhostSelfMask:
+    m_OverrideState: 1
+    m_Value: 1
+  useScreenSpaceRadius:
+    m_OverrideState: 1
+    m_Value: 0
+  characterGhostTargetPosition:
+    m_OverrideState: 1
+    m_Value: {x: 0, y: 0, z: 0}
+  characterGhostLayer:
+    m_OverrideState: 1
+    m_Value: 2
+    min: 1
+    max: 5
+  layer1Direction:
+    m_OverrideState: 1
+    m_Value: 0
+    min: 0
+    max: 360
+  layer1Radius:
+    m_OverrideState: 1
+    m_Value: 0
+    min: 0
+    max: 10
+  layer1Intensity:
+    m_OverrideState: 1
+    m_Value: 0
+    min: 0
+    max: 1
+  layer1Color:
+    m_OverrideState: 1
+    m_Value: {r: 1, g: 1, b: 1, a: 1}
+    hdr: 0
+    showAlpha: 1
+    showEyeDropper: 1
+  layer2Direction:
+    m_OverrideState: 1
+    m_Value: 0
+    min: 0
+    max: 360
+  layer2Radius:
+    m_OverrideState: 1
+    m_Value: 0
+    min: 0
+    max: 10
+  layer2Intensity:
+    m_OverrideState: 1
+    m_Value: 0
+    min: 0
+    max: 1
+  layer2Color:
+    m_OverrideState: 1
+    m_Value: {r: 1, g: 1, b: 1, a: 1}
+    hdr: 0
+    showAlpha: 1
+    showEyeDropper: 1
+  layer3Direction:
+    m_OverrideState: 1
+    m_Value: 0
+    min: 0
+    max: 360
+  layer3Radius:
+    m_OverrideState: 1
+    m_Value: 0
+    min: 0
+    max: 10
+  layer3Intensity:
+    m_OverrideState: 1
+    m_Value: 0
+    min: 0
+    max: 1
+  layer3Color:
+    m_OverrideState: 1
+    m_Value: {r: 1, g: 1, b: 1, a: 1}
+    hdr: 0
+    showAlpha: 1
+    showEyeDropper: 1
+  layer4Direction:
+    m_OverrideState: 1
+    m_Value: 0
+    min: 0
+    max: 360
+  layer4Radius:
+    m_OverrideState: 1
+    m_Value: 0
+    min: 0
+    max: 10
+  layer4Intensity:
+    m_OverrideState: 1
+    m_Value: 0
+    min: 0
+    max: 1
+  layer4Color:
+    m_OverrideState: 1
+    m_Value: {r: 1, g: 1, b: 1, a: 1}
+    hdr: 0
+    showAlpha: 1
+    showEyeDropper: 1
+  layer5Direction:
+    m_OverrideState: 1
+    m_Value: 0
+    min: 0
+    max: 360
+  layer5Radius:
+    m_OverrideState: 1
+    m_Value: 0
+    min: 0
+    max: 10
+  layer5Intensity:
+    m_OverrideState: 1
+    m_Value: 0
+    min: 0
+    max: 1
+  layer5Color:
+    m_OverrideState: 1
+    m_Value: {r: 1, g: 1, b: 1, a: 1}
+    hdr: 0
+    showAlpha: 1
+    showEyeDropper: 1
+  characterGhostColor:
+    m_OverrideState: 1
+    m_Value: {r: 1, g: 1, b: 1, a: 1}
+    hdr: 1
+    showAlpha: 0
+    showEyeDropper: 0
+  characterGhostFresnel:
+    m_OverrideState: 1
+    m_Value: 0
+  characterGhostFresnelPower:
+    m_OverrideState: 1
+    m_Value: 1
+    min: 0
+  characterGhostSingleColor:
+    m_OverrideState: 1
+    m_Value: 0
+  characterGhostMinIntensity:
+    m_OverrideState: 1
+    m_Value: 0.2
+    min: 0
+    max: 1

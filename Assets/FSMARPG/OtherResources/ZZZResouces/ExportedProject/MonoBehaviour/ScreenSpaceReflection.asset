@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11f513dee1906a5b8690178ea697ab6c, type: 3}
+  m_Name: ScreenSpaceReflection
+  m_EditorClassIdentifier:
+  active: 1
+  m_AdvancedMode: 0
+  TypeId: 33
+  enabled:
+    m_OverrideState: 1
+    m_Value: 0
+  intensity:
+    m_OverrideState: 1
+    m_Value: 0.82
+    min: 0
+    max: 1
+  depthBufferThickness:
+    m_OverrideState: 1
+    m_Value: 1
+    min: 0
+    max: 1
+  screenFadeDistance:
+    m_OverrideState: 1
+    m_Value: 0.15
+    min: 0.001
+    max: 1
+  quality:
+    m_OverrideState: 1
+    m_Value: 2
+  overrideGlobalPlanarReflectionConfig:
+    m_OverrideState: 0
+    m_Value: 0
+  planarReflectionBlurAmount:
+    m_OverrideState: 0
+    m_Value: 1
+    min: 0
+    max: 8

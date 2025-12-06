@@ -1,0 +1,129 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb6ad3d9e2bc20907ec96fe9052185fc, type: 3}
+  m_Name: Glitch
+  m_EditorClassIdentifier:
+  active: 0
+  m_AdvancedMode: 0
+  TypeId: 16
+  glitchAngle:
+    m_OverrideState: 1
+    m_Value: 90
+    min: 0
+    max: 360
+  rShift:
+    m_OverrideState: 1
+    m_Value: -0.0017991439
+    min: -1
+    max: 1
+  gShift:
+    m_OverrideState: 1
+    m_Value: 0
+    min: -1
+    max: 1
+  bShift:
+    m_OverrideState: 1
+    m_Value: 0.0017994419
+    min: -1
+    max: 1
+  noiseScale:
+    m_OverrideState: 1
+    m_Value: 0.009021819
+    min: 0
+  noiseDistortion:
+    m_OverrideState: 1
+    m_Value: 0.004501596
+    min: 0
+    max: 1
+  distortionThreshold:
+    m_OverrideState: 1
+    m_Value: 0.004501596
+    min: 0
+    max: 1
+  lineThresholdMin:
+    m_OverrideState: 1
+    m_Value: 0.0009003207
+    min: 0
+    max: 1
+  lineThresholdMax:
+    m_OverrideState: 1
+    m_Value: 0.0018006414
+    min: 0
+    max: 1
+  lineBrightness:
+    m_OverrideState: 1
+    m_Value: 0.030585542
+    min: 0
+    max: 1
+  texture:
+    m_OverrideState: 1
+    m_Value: {fileID: 0}
+  mask:
+    m_OverrideState: 1
+    m_Value: 1
+  maskTexTillingOffset:
+    m_OverrideState: 1
+    m_Value: {x: 0, y: 1, z: 0, w: 0}
+  randomOpacity:
+    m_OverrideState: 0
+    m_Value: 0
+  randomOpacityTillingOffset:
+    m_OverrideState: 0
+    m_Value: {x: 0, y: 1, z: 0, w: 0}
+  randomOpacitySpeed:
+    m_OverrideState: 0
+    m_Value: {x: 5, y: 5}
+  overrideMap3DColor:
+    m_OverrideState: 1
+    m_Value: {r: 1, g: 1, b: 1, a: 0}
+    hdr: 1
+    showAlpha: 1
+    showEyeDropper: 1
+  characterDistortionMaskOn:
+    m_OverrideState: 0
+    m_Value: 0
+  glitchIntensity:
+    m_OverrideState: 0
+    m_Value: 1
+  glitchNoiseTex:
+    m_OverrideState: 0
+    m_Value: {fileID: 0}
+  glitchNoiseTexSpeed:
+    m_OverrideState: 0
+    m_Value: 0
+  glitchRand:
+    m_OverrideState: 0
+    m_Value: 0
+  glitchTex1:
+    m_OverrideState: 0
+    m_Value: {fileID: 0}
+  glitchTex1ScaleOffset:
+    m_OverrideState: 0
+    m_Value: {x: 1, y: 1}
+  glitchTex1Amount:
+    m_OverrideState: 0
+    m_Value: 0
+  glitchTex1Range:
+    m_OverrideState: 0
+    m_Value: 0
+  glitchTex2:
+    m_OverrideState: 0
+    m_Value: {fileID: 0}
+  glitchTex2ScaleOffset:
+    m_OverrideState: 0
+    m_Value: {x: 1, y: 1}
+  glitchTex2Amount:
+    m_OverrideState: 0
+    m_Value: 0
+  glitchTex2Range:
+    m_OverrideState: 0
+    m_Value: 0
